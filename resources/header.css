@@ -1,0 +1,27 @@
+.header {
+    background-image: url("img/banner.jpeg");
+    background-size: cover;
+    position: center;
+    color: #666666;
+    height: 500px;
+    background-repeat: none;
+    background-position: fixed;
+    font-family: 'Montserrat';
+    font-size: 6vh;
+}
+.header-vertical-align {
+    position: relative;
+    top: 45%;
+    transform: translateY(-55%)
+}
+.header-vertical-align span {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: block;
+    width: 900px;
+}
+@media only screen and (max-width: 500px) {
+    .header-vertical-align span {
+        width: 100%;
+    }
+}
