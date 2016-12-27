@@ -1,28 +1,89 @@
-.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #fff;
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  -moz-transition: all .1s ease-in;
+  -o-transition: all .1s ease-in;
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+  background-color: rgba(51,51,51,0.6);
 }
 
-.navbar li {
+ul.topnav li {
     float: left;
 }
 
-.navbar li a {
-    display: block;
-    color: ;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
 }
-
-.navbar li a:hover:not(.active) {
+ul.topnav:hover {
+    background-color: rgba(51,51,51,0.6);
+}
+ul.topnav li a:hover {
     background-color: #111;
-    text-decoration: none;
+    }
+
+ul.topnav li.icon {
+    display: none;
+	font-size: 28px;
+    }
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {
+      display: none;
+}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
 }
 
-.active {
-    background-color: #4CAF50;
+@media screen and (max-width:680px) {
+    ul.topnav.responsive {
+	    position: relative;
+		background-color: rgba(51,51,51,0.6);
+		display: block;
+    }
+    ul.topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.topnav.responsive li {
+        float: none;
+        display: inline;
+    }
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
 }
+	.header {
+	    width: 100%;
+		font-family: 'LemonMilk';
+		margin-top: none;
+		top: -60px;
+	}
+	.no-results {
+		text-align: center;
+		background-image: url("background.png");
+		background-size: cover;
+		position: center;
+		color: #fff;
+		height: 100vh;
+		background-repeat: none;
+		background-position: fixed;
+		top: -60px;
+	}
+	.vertical-align {
+		position: relative; 
+		top: 50%;
+		transform: translateY(-50%);
+	}

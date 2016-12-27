@@ -12,7 +12,7 @@
 .header-vertical-align {
     position: relative;
     top: 45%;
-    transform: translateY(-55%)
+    transform: translateY(-55%);
 }
 .header-vertical-align span {
     margin-left: 50px;
@@ -33,7 +33,7 @@
 }
 @media only screen and (min-width: 900px) {
     .header-vertical-align span {
-        width: 100%;
+        width: 80%;
     }
 }
 .header-button {
