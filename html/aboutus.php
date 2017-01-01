@@ -11,23 +11,7 @@
         <title>Calamvale Medical Center</title>
     </head>
     <body>
-        <div>
-            <ul class="topnav">
-                <li style="float: right;"><a class="active" href="#home">CONTACT US</a></li>
-                <li style="float: right;"><a class="active" href="#home">OUR TEAM</a></li>
-                <li style="float: right;"><a href="#news">SERVICE</a></li>
-                <li style="float: right;"><a href="#contact">INFORMATION</a></li>
-                <li style="float: right;"><a href="#about">HOME</a></li>
-                <li class="icon" style="float: right;">
-                    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
-                </li>
-            </ul>
-            <script>
-                function myFunction() {
-                    document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
-                }
-            </script> 
-        </div>
+        <?php include 'navbar.php'; ?>
         <div class="header">
             <div class="header-vertical-align">
                 <span class="header-title">HIGH QUALITY, DEPENDABLE HEALTHCARE FOR THE ENTIRE FAMILY</span>
