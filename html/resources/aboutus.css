@@ -1,0 +1,23 @@
+.content-text {
+    display: inline-block; 
+    width: 70%; 
+    vertical-align: middle;
+}
+.content-img {
+    display: inline-block; 
+    width: 20%;
+    vertical-align: middle;
+    padding: 10px 10px 10px 10px;
+}
+@media only screen and (max-width: 800px) {
+    .content-text {
+        display: block;
+        width: 100%;
+    }
+    .content-img {
+        display: block;
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+    }
+    
+}
