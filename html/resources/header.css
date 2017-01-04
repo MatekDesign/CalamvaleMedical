@@ -1,19 +1,22 @@
 .header {
-    background-image: url("img/banner.jpeg");
-    background-size: cover;
-    position: center;
-    height: 500px;
-    background-repeat: none;
-    background-position: fixed;
-    font-family: 'Montserrat';
-    font-size: 40px;
-    display: block;
+	background-image: url("img/banner.jpeg");
+	background-size: cover;
+	position: center;
+	height: 500px;
+	background-repeat: none;
+	background-position: left fixed;
+	font-family: 'Montserrat';
+	font-size: 40px;
+	display: block;
 }
 .header-vertical-align {
     position: relative;
     top: 45%;
     transform: translateY(-55%);
 }
+.header .header-vertical-align form {
+}
+
 .header-vertical-align span {
 	margin-left: 2.5%;
 	display: block;
@@ -22,7 +25,7 @@
 }
 .header-title {
 	font-family: 'Montserrat';
-	font-size: 40px;
+	font-size: 2vw;
 	color: #666666;
 	font-style: italic;
 }
