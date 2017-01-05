@@ -13,7 +13,8 @@
         
     <style>
 #map {
-	height: 200px;
+	height: 350px;
+    padding-right: 600px;
 	margin-bottom: 10px;
 }
 
@@ -63,16 +64,20 @@
             <div class="conainer-fluid">
                 <div class="row">
                     <div class="col-md-3">
-123
+                         <div class="content-2-big-text-1">368</div>
+                         <div class="content-2-small-text-1">people go for monthly checkups</div>
                     </div>
                     <div class="col-md-3">
-
+                         <div class="content-2-big-text-1">368</div>
+                         <div class="content-2-small-text-1">people go for monthly checkups</div>
                     </div>
                     <div class="col-md-3">
-
+                         <div class="content-2-big-text-1">368</div>
+                         <div class="content-2-small-text-1">people go for monthly checkups</div>
                     </div>
                     <div class="col-md-3">
-
+                         <div class="content-2-big-text-1">368</div>
+                         <div class="content-2-small-text-1">people go for monthly checkups</div>
                     </div>
                 </div>
             </div>
@@ -91,12 +96,18 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div id="map" ></div>
-          
-          </div>
+    <div class="content-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-7">
+                    <div>
+                    <div id="map"></div>
+                    </div>
+                </div>
+                <div class="col-md-4" style="background-color: green; width: 41.66%; height: 300px;">
+
+                </div>
+            </div>
         </div>
     </div>
     <?php include 'footer.php'; ?>

@@ -1,6 +1,6 @@
 .content-1 {
     text-align: center;
-    width: 65%;
+    width: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -33,4 +33,16 @@
     height: 250px;
     background-image: url("img/background.jpg");
     background-size: cover;
+    text-align: center;
+}
+.content-2-big-text-1 {
+    font-size: 75px;
+    color: #00aca2;
+    text-shadow: 2px 2px 1px gray;
+}
+.content-2-small-text-1 {
+    font-size: 21px;
+    color: white;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px gray;
 }
