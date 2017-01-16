@@ -14,7 +14,6 @@
     <style>
 #map {
 	height: 350px;
-    padding-right: 600px;
 	margin-bottom: 10px;
 }
 
@@ -83,14 +82,34 @@
             </div>
         </div>
     </div>
-    <br>
     <div class="content-3">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6"><img src="resources/img/placeholder.png" height="400px"></div>
+                <div class="col-md-6">
+                    <div class="content-3-img">
+                        <img src="resources/img/placeholder.png">
+                    </div>
+                </div>
                 <div class="col-md-6">
                     <div class="vertical-align">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum mauris sit amet gravida efficitur. Fusce in est lacus. Nulla facilisi. Cum sociis natoque penatibus et magnis dis parturient montes.
+                        <div class="content-3-innner-text">
+                            <div class="content-3-big-text">Meet our team</div>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id venenatis nibh. In hac habitasse platea dictumst. Donec nec felis at nulla rutrum scelerisque at sit amet mi. Duis sit amet dolor non eros condimentum tincidunt eget sed lectus. 
+                            <br>
+                            <br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id venenatis nibh. In hac habitasse platea dictumst. Donec nec felis at nulla rutrum scelerisque at sit amet mi. Duis sit amet dolor non eros condimentum tincidunt eget sed lectus. 
+                            <br>
+                            <br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id venenatis nibh. In hac habitasse platea dictumst. Donec nec felis at nulla rutrum scelerisque at sit amet mi. Duis sit amet dolor non eros condimentum tincidunt eget sed lectus. 
+                            <br>
+                            <br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id venenatis nibh. In hac habitasse platea dictumst. Donec nec felis at nulla rutrum scelerisque at sit amet mi. Duis sit amet dolor non eros condimentum tincidunt eget sed lectus. 
+                            <br>
+                            <br>
+                            <form>
+                                <button class="content-3-button" type="submit">READ MORE</button>
+                            </form>
+                         </div>                    
                     </div>
                 </div>
             </div>
@@ -99,13 +118,24 @@
     <div class="content-4">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-7">
-                    <div>
+                <div class="col-md-8" id="1">
                     <div id="map"></div>
-                    </div>
                 </div>
-                <div class="col-md-4" style="background-color: green; width: 41.66%; height: 300px;">
-
+                <div class="col-md-3" id="2">
+                    <div class="content-4-inner-text">
+                        <div class="content-4-header-1">Locate Us</div>
+                        <div class="content-4-text-1">
+                            <b>Address:</b>
+                            <br>
+                            23 Fortitude Valley,<br>Aspley, Brisbane<br>QLD, 4034
+                            <br>
+                            <br>
+                            <b>Phone:</b> (07) 4562 8952
+                            <br>
+                            <br>
+                            <b>Fax:</b> (07) 1256 8753
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
