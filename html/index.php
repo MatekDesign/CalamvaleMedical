@@ -87,12 +87,11 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="content-3-img">
-                        <img src="resources/img/placeholder.png">
+                            <img src="resources/img/placeholder.png">
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="vertical-align">
-                        <div class="content-3-innner-text">
+                    <div class="content-3-innner-text">
                             <div class="content-3-big-text">Meet our team</div>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id venenatis nibh. In hac habitasse platea dictumst. Donec nec felis at nulla rutrum scelerisque at sit amet mi. Duis sit amet dolor non eros condimentum tincidunt eget sed lectus. 
                             <br>
@@ -108,8 +107,7 @@
                             <br>
                             <form>
                                 <button class="content-3-button" type="submit">READ MORE</button>
-                            </form>
-                         </div>                    
+                            </form>                 
                     </div>
                 </div>
             </div>
