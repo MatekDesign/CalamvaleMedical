@@ -8,6 +8,9 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500|Open+Sans" rel="stylesheet">
+
         <!-- CSS -->
         <link rel="stylesheet" href="resources/css/navbar.css">
         <link rel="stylesheet" href="resources/css/index.css">
@@ -15,14 +18,21 @@
     </head>
     <body>
         <div class="topnav" id="myTopnav">
-            <a href="#home" id="active">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+            <a href="#home" id="active">HOME</a>
+            <a href="#news">NEWS</a>
+            <a href="#contact">CONCTACT</a>
+            <a href="#about">ABOUT</a>
             <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="expand()">&#9776;</a>
             <div id="phone-number"><span class="mif-phone mif-1x"></span><span id="phone-number-text">86423764983276</span></div>
         </div>
-        <div class="header"></div>
+        <div class="header">
+            <!--<div class="vertical-align">-->
+                <div class="header-box">
+                    <img src="resources/img/logo.png">
+                    <p><b>HIGH QUALITY, DEPENDABLE HEALTHCARE FOR THE ENTIRE FAMILY</b></p>
+                </div>
+            <!--</div>-->
+        </div>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue fermentum lorem, nec semper risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in tincidunt nisi. Mauris orci nisi, auctor sed orci quis, dictum laoreet nibh. In volutpat augue egestas augue imperdiet egestas. Nam placerat urna at elit condimentum fringilla. Donec ac est vitae ipsum dignissim congue ut ut augue. Maecenas volutpat arcu ut nulla elementum, sed placerat ante varius. Nullam ultricies mi sit amet dui placerat porttitor. In vestibulum elementum dui, ut facilisis leo maximus sit amet. Morbi euismod tortor sit amet mauris pharetra mattis. In quis fermentum neque.
 
 Morbi fermentum, libero at aliquet convallis, dolor urna finibus orci, eu vestibulum nisi lectus at sapien. Praesent non elementum elit. Donec viverra, dui sed pellentesque scelerisque, ipsum augue placerat lectus, id placerat purus magna in arcu. Donec iaculis cursus euismod. Sed imperdiet varius turpis, id pretium elit sollicitudin vitae. Maecenas laoreet lorem sit amet risus luctus, in elementum nulla volutpat. Suspendisse at blandit tellus. Proin convallis molestie odio, at laoreet nunc congue vel. Vivamus faucibus, justo non euismod consequat, dui nibh maximus diam, ut finibus leo arcu vitae enim. Duis eget massa metus. Curabitur quam nibh, aliquam eget mauris vitae, facilisis molestie mauris. Integer ultricies tortor ornare semper finibus. Sed lorem dolor, euismod id ante vitae, sodales faucibus dui.
