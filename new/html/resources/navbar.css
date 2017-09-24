@@ -1,0 +1,90 @@
+body {
+	margin: 0px 0px 0px 0px;
+}
+.navbar {
+	margin: 0px;
+}
+
+.navbar-nav > li > a {
+    margin-top: 25px;
+	color:#00ACA2;
+    margin-bottom: 25px;
+	font-weight:bold;
+	font-size:15px;
+	padding-top: 15px;
+	line-height: 28px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+	-moz-transition: all .15s ease-in;
+	-o-transition: all .15s ease-in;
+	-webkit-transition: all .15s ease-in;
+	transition: all .15s ease-in;
+}
+
+.navbar-brand.asimg
+{
+	padding: 15px;
+}
+.navbar-brand.asimg img {
+	height: 60px;
+}
+
+@media (min-width: 768px) and (max-width: 887px){
+	.navbar {
+		min-height: 84px;
+	}
+	.navbar-nav > li > a {
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 16px;
+		padding-bottom: 16px;
+		margin-top: 21px;
+		margin-bottom: 21px;
+		font-size:14px;
+	}
+	.navbar-brand.asimg img {
+		height: 70px;
+		width: 234;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-brand.astxt {
+		Display: none;
+	}
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+		line-height: 10px;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		margin-top: 8px;
+		margin-bottom: 8px;
+	}
+	.navbar-brand.asimg {
+		Display: none;
+	}
+	.navbar {
+		min-height: 0px;
+		padding: 0px;
+		margin: 0px;
+	}
+	.navbar-brand.astxt {
+		padding: 12px;
+		padding-left: 15px;
+		font-size:18px;
+		line-height: 24px;
+		color:#00ACA2;
+		font-weight: bold;
+	}
+	.navbar-toggle {
+		background-color: #00ACA2;
+		margin-right: 6px;
+	}
+	.navbar-toggle span{
+		background-color: white;
+	}
+}

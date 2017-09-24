@@ -1,0 +1,59 @@
+.header {
+	background-image: url("img/banner.jpeg");
+	background-size: cover;
+	position: center;
+	height: 500px;
+	background-repeat: none;
+	background-position: left fixed;
+	font-family: 'Montserrat';
+	font-size: 40px;
+	display: block;
+}
+.header-vertical-align {
+    position: relative;
+    top: 45%;
+    transform: translateY(-55%);
+}
+
+.header-vertical-align span {
+	margin-left: 2.5%;
+	display: block;
+	width: 800px;
+	margin-right: 2.5%;
+}
+.header-title {
+	font-family: 'Montserrat';
+	font-size: 2vw;
+	color: #666666;
+	font-style: italic;
+	text-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.25);
+}
+.header-sub-title {
+    color: #999999;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    margin-top: 20px;
+	text-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.35);
+}
+@media only screen and (min-width: 900px) {
+    .header-vertical-align span {
+        width: 80%;
+    }
+}
+.header-button {
+	padding: 10px 10px 10px 10px;
+	border: 0;
+	border-radius: 12px;
+	background: #00aca2;
+	font-family: inherit;
+	color: #e8e8e8;
+	font-size: 20px;
+	cursor: pointer;
+	text-align: left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+	display: block;
+}
+.header-button::-moz-focus-inner{
+    padding: 0;
+    border: 0;
+}
