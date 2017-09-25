@@ -97,7 +97,7 @@
     <br>
     <div class="content-2">
         <div class="vertical-align">
-            <div class="conainer">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-3">
                          <div class="content-2-big-text-1">368</div>
