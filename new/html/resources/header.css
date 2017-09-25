@@ -20,7 +20,7 @@
 
 .carousel-item
 {
-	height: 87vh;
+	height: calc(100vh - 108px);
 	width: 100vw;
 	background-position: center center;
 	background-size: cover; 
