@@ -24,43 +24,45 @@
     <?php include 'navbar.php'; ?>
 
     <!-- Header -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active" style="background-image: url('resources/img/background-man.jpeg');">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3>Depenable health care and memes</h3>
-                    <p>Pepe will come to your house at midnight tonight</p>
-                    <button class="header-button" type="submit">BOOK AN APPOINTMENT</button>
+    <div class="parallax">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image: url('resources/img/background-man.jpeg');">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Depenable health care and memes</h3>
+                        <p>Pepe will come to your house at midnight tonight</p>
+                        <button class="header-button" type="submit">BOOK AN APPOINTMENT</button>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('resources/img/skeleton.jpg');">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>nd memes</h3>
+                        <p>Pepe will house at midnight tonight</p>
+                        <button class="header-button" type="submit">BOOK AN APPOINTMENT</button>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('resources/img/background-hospital.jpeg');">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Depenable h and memes</h3>
+                        <p>Pepe will comdnight tonight</p>
+                        <button class="header-button" type="submit">BOOK AN APPOINTMENT</button>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item" style="background-image: url('resources/img/skeleton.jpg');">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3>nd memes</h3>
-                    <p>Pepe will house at midnight tonight</p>
-                    <button class="header-button" type="submit">BOOK AN APPOINTMENT</button>
-                </div>
-            </div>
-            <div class="carousel-item" style="background-image: url('resources/img/background-hospital.jpeg');">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3>Depenable h and memes</h3>
-                    <p>Pepe will comdnight tonight</p>
-                    <button class="header-button" type="submit">BOOK AN APPOINTMENT</button>
-                </div>
-            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
     <br>
 
@@ -95,7 +97,7 @@
     <br>
     <div class="content-2">
         <div class="vertical-align">
-            <div class="conainer-fluid">
+            <div class="conainer">
                 <div class="row">
                     <div class="col-md-3">
                          <div class="content-2-big-text-1">368</div>
