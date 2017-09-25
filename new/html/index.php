@@ -97,7 +97,7 @@
     <br>
     <div class="content-2">
         <div class="vertical-align">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-3">
                          <div class="content-2-big-text-1">368</div>
@@ -119,8 +119,9 @@
             </div>
         </div>
     </div>
+    <br>
     <div class="content-3">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
                     <div class="content-3-img">
@@ -136,7 +137,7 @@
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id venenatis nibh. In hac habitasse platea dictumst. Donec nec felis at nulla rutrum scelerisque at sit amet mi. Duis sit amet dolor non eros condimentum tincidunt eget sed lectus. 
                             <br>
                             <br>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id venenatis nibh. In hac habitasse platea dictumst. Donec nec felis at nulla rutrum scelerisque at sit amet mi. Duis sit amet dolor non eros condimentum tincidunt eget sed lectus. 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id venenatis nibh. In hac habitasse platea dictumst. 
                             <br>
                             <br>
                             <form>
@@ -147,6 +148,7 @@
             </div>
         </div>
     </div>
+    <br>
     <div class="content-5">
         <div class="container-fluid">
             <div class="row">
