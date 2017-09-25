@@ -75,6 +75,17 @@ body {
 	.navbar-nav {
 		margin: -5px 0 10px;
 	}
+	.navbar-nav > li > a {
+    margin-top: 25px;
+	color:#00ACA2;
+    margin-bottom: 25px;
+	font-weight:bold;
+	font-size:15px;
+	padding-top: 15px;
+	line-height: 28px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 <<<<<<< HEAD
