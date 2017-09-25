@@ -43,9 +43,6 @@ body {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-<<<<<<< HEAD
-/* Tablets */
-=======
 /*Tablet and Desktop*/
 @media (min-width: 768px) {
 	.navbar-brand.astxt {
@@ -54,7 +51,6 @@ body {
 }
 
 /*Tablet*/
->>>>>>> 272e5cfce4af9df9c5b677db0e770d96713919da
 @media (min-width: 768px) and (max-width: 991px){
 	.navbar {
 		min-height: 84px;
@@ -65,38 +61,22 @@ body {
 		margin: 12px 0px 12px 15px;
 	}
 	.navbar-brand.asimg img {
-		height: 70px;
-		width: 234;
+		height: 45px;
 	}
 	.navbar-toggler {
 		margin-right: 10px;
-		margin-top: 35px;
+		margin-top: 27px;
 	}
 	.navbar-nav {
 		margin: -5px 0 10px;
 	}
-	.navbar-nav > li > a {
-    margin-top: 25px;
-	color:#00ACA2;
-    margin-bottom: 25px;
-	font-weight:bold;
-	font-size:15px;
-	padding-top: 15px;
-	line-height: 28px;
-	padding-bottom: 15px;
-	padding-left: 15px;
-	padding-right: 15px;
 }
 
-<<<<<<< HEAD
-@media (min-width: 576px) and (max-width: 767px) {
-=======
 /* Mobile */
 @media (max-width: 767px) {
 	.navbar-nav {
 		margin: -5px 0 10px;
 	}
->>>>>>> 272e5cfce4af9df9c5b677db0e770d96713919da
     .navbar-nav > li > a {
 		line-height: 15px;
 		padding: 0px;
