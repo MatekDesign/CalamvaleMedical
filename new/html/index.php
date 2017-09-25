@@ -95,6 +95,21 @@
         </div>
     </div>
     <br>
+    <div class="content-6">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+
+                </div>
+                </div class="col-md-4">
+
+                </div>
+                </div class="col-md-4">
+                
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="content-2">
         <div class="vertical-align">
             <div class="container-fluid">
