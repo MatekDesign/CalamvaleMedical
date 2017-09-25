@@ -2,7 +2,8 @@ body {
 	margin: 0px 0px 0px 0px;
 }
 .navbar {
-	margin: 0px;
+	margin: 0px !important;
+	padding: 0 16px;
 }
 
 .navbar-nav > li > a {
@@ -17,6 +18,8 @@ body {
 	padding-left: 15px;
 	padding-right: 15px;
 	
+	text-transform: uppercase;
+	
 	-moz-transition: all .15s ease-in;
 	-o-transition: all .15s ease-in;
 	-webkit-transition: all .15s ease-in;
@@ -28,7 +31,7 @@ body {
 	padding: 15px;
 }
 .navbar-brand.asimg img {
-	height: 60px;
+	height: 65px;
 }
 
 @media (min-width: 768px) and (max-width: 887px){
