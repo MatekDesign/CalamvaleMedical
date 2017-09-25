@@ -22,6 +22,8 @@
     </head>
     <body>
     <?php include 'navbar.php'; ?>
+
+    <!-- Header -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -29,22 +31,22 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active" style="height: 86vh;width: 100;background-image: url('resources/img/background-man.jpeg'); background-position: center center;background-size: cover; background-repeat: no-repeat;">
-                <div class="carousel-caption d-none d-md-block" style="text-align: left;bottom: 10vh; background-color: rgba(0,0,0,0.6); padding: 20px 20px 20px 20px;max-width: 70vh">
+            <div class="carousel-item active" style="background-image: url('resources/img/background-man.jpeg');">
+                <div class="carousel-caption d-none d-md-block">
                     <h3>Depenable health care and memes</h3>
                     <p>Pepe will come to your house at midnight tonight</p>
                     <button class="header-button" type="submit">BOOK AN APPOINTMENT</button>
                 </div>
             </div>
-            <div class="carousel-item" style="height: 86vh;width: 86;background-image: url('resources/img/skeleton.jpg'); background-position: center center;background-size: cover; background-repeat: no-repeat;">
-                <div class="carousel-caption d-none d-md-block" style="text-align: left;bottom: 10vh; background-color: rgba(0,0,0,0.6); padding: 20px 20px 20px 20px; width: 65vh;">
+            <div class="carousel-item" style="background-image: url('resources/img/skeleton.jpg');">
+                <div class="carousel-caption d-none d-md-block">
                     <h3>nd memes</h3>
                     <p>Pepe will house at midnight tonight</p>
                     <button class="header-button" type="submit">BOOK AN APPOINTMENT</button>
                 </div>
             </div>
-            <div class="carousel-item" style="height: 86vh;width: 100;background-image: url('resources/img/background-hospital.jpeg'); background-position: center center;background-size: cover; background-repeat: no-repeat;">
-                <div class="carousel-caption d-none d-md-block" style="text-align: left;bottom: 10vh; background-color: rgba(0,0,0,0.6); padding: 20px 20px 20px 20px; width: 65vh;">
+            <div class="carousel-item" style="background-image: url('resources/img/background-hospital.jpeg');">
+                <div class="carousel-caption d-none d-md-block">
                     <h3>Depenable h and memes</h3>
                     <p>Pepe will comdnight tonight</p>
                     <button class="header-button" type="submit">BOOK AN APPOINTMENT</button>
@@ -61,6 +63,8 @@
         </a>
     </div>
     <br>
+
+
     <div class="content-1">
         <div class="container-fluid">
             <div class="row">
@@ -118,7 +122,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="content-3-img">
-                            <img src="resources/img/placeholder.png">
+                            <img src="resources/img/placeholder.png"> 
                     </div>
                 </div>
                 <div class="col-md-6">
