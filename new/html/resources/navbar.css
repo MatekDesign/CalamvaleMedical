@@ -52,9 +52,7 @@ body {
 
 /*Tablet*/
 @media (min-width: 768px) and (max-width: 991px){
-	.navbar {
-		min-height: 84px;
-	}
+
     .navbar-nav > li > a {
 		line-height: 15px;
 		padding: 0px;
@@ -65,7 +63,7 @@ body {
 	}
 	.navbar-toggler {
 		margin-right: 10px;
-		margin-top: 27px;
+		margin-top: 21px;
 	}
 	.navbar-nav {
 		margin: -5px 0 10px;

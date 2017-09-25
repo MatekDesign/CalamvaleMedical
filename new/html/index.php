@@ -71,22 +71,22 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="resources/img/person.png">
+                    <i class="material-icons md-36">local_florist</i>
                     <div class="content-1-header">Friendly Staff</div>
                     <div class="content-1-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum mauris sit amet gravida efficitur. Fusce in est lacus. Nulla facilisi. Cum sociis natoque penatibus et magnis dis parturient montes.
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <img src="resources/img/doc.png">
+                    <i class="material-icons md-36">school</i>
                     <div class="content-1-header">Experienced</div>
                     <div class="content-1-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum mauris sit amet gravida efficitur. Fusce in est lacus. Nulla facilisi. Cum sociis natoque penatibus et magnis dis parturient montes.
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <img src="resources/img/doc.png">
-                    <div class="content-1-header" >Friendly Staff</div>
+                    <i class="material-icons md-36">attach_money</i>
+                    <div class="content-1-header" >Medicare</div>
                     <div class="content-1-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum mauris sit amet gravida efficitur. Fusce in est lacus. Nulla facilisi. Cum sociis natoque penatibus et magnis dis parturient montes.
                     </div>
