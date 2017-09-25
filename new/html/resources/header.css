@@ -13,7 +13,7 @@
 	display: block;
 }
 
-.header-button::-moz-focus-inner{
+.header-button::-moz-focus-inner {
     padding: 0;
     border: 0;
 }
@@ -35,16 +35,33 @@
 	padding: 20px 20px 20px 20px;
 	max-width: 40vw;
 }
-.parallax {
-	    /* The image used */
-    background-image: url("img_parallax.jpg");
 
-    /* Set a specific height */
-    min-height: 500px; 
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991px){
+	.carousel-item
+    {
+		height: calc(100vh - 100px);
+    }
+	
+	carousel-item div {
+		min-width: 100%;
+	}
+}
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+/* Phones */
+@media (min-width: 576px) and (max-width: 767px) {
+	.carousel-item
+    {
+		height: calc(100vh - 48px);
+    }
+	carousel-item div {
+		min-width: 100%;
+	}
+	.header-button {
+		padding: 8px 8px 8px 8px;
+		font-size: 17px;
+		text-align: left;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+		display: block;
+    }
 }

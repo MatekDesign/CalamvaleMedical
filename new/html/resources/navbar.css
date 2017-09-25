@@ -34,7 +34,8 @@ body {
 	height: 65px;
 }
 
-@media (min-width: 768px) and (max-width: 887px){
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991px){
 	.navbar {
 		min-height: 84px;
 	}
@@ -59,7 +60,7 @@ body {
 	}
 }
 
-@media (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 767px) {
     .navbar-nav > li > a {
 		line-height: 10px;
 		padding-top: 12px;

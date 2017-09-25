@@ -33,21 +33,21 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active" style="background-image: url('resources/img/background-man.jpeg');">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption">
                         <h3>Depenable health care and memes</h3>
                         <p>Pepe will come to your house at midnight tonight</p>
                         <button class="header-button" type="submit">BOOK AN APPOINTMENT</button>
                     </div>
                 </div>
                 <div class="carousel-item" style="background-image: url('resources/img/skeleton.jpg');">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-md-block">
                         <h3>nd memes</h3>
                         <p>Pepe will house at midnight tonight</p>
                         <button class="header-button" type="submit">BOOK AN APPOINTMENT</button>
                     </div>
                 </div>
                 <div class="carousel-item" style="background-image: url('resources/img/background-hospital.jpeg');">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption">
                         <h3>Depenable h and memes</h3>
                         <p>Pepe will comdnight tonight</p>
                         <button class="header-button" type="submit">BOOK AN APPOINTMENT</button>
