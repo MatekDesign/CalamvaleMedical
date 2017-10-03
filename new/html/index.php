@@ -8,6 +8,7 @@
 
     <?php include_once 'resources.php'; ?>
     <link href="resources/index.css" rel="stylesheet">
+    <link href="resources/header.css" rel="stylesheet">
     <script src="resources/js/index.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKpizFlgH-vwYio016p65LWhX3lIjwEgk&callback=initMap" async defer></script>
         
