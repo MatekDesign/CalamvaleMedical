@@ -8,7 +8,8 @@
 
     <?php include_once 'resources.php'; ?>
     <link href="resources/index.css" rel="stylesheet">
-    <script src="resources/js/map.js"></script>
+    <link href="resources/header.css" rel="stylesheet">
+    <script src="resources/js/index.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKpizFlgH-vwYio016p65LWhX3lIjwEgk&callback=initMap" async defer></script>
         
     <style>
@@ -205,6 +206,5 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
 	<script src="https://v4-alpha.getbootstrap.com/dist/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="resources/js/index.js"></script>
 </body>
 </html>
