@@ -43,57 +43,79 @@ body {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-/*Tablet and Desktop*/
-@media (min-width: 768px) {
-	.navbar-brand.astxt {
-		display: none;
-	}
+.navbartop {
+	height: 31px;
+	padding: 5px 0px;
+	background-color: #726767;
+	color: #acb5bd;
+	font-size: 14px;
+	line-height: 21px;
 }
-
-/*Tablet*/
-@media (min-width: 768px) and (max-width: 991px){
-
-    .navbar-nav > li > a {
-		line-height: 15px;
-		padding: 0px;
-		margin: 12px 0px 12px 15px;
-	}
+.navbartop .phone {
+	margin-right: 50px;
+	color: #f0f2f4;
+}
+.navbartop .book,
+.navbartop .email {
+	color: #f0f2f4;
+}
+.navbartop .book a {
+	font-weight: bold;
+}
+.navbartop .phone a,
+.navbartop .email a,
+.navbartop .book a {
+	color: #f0f2f4;
+	text-decoration-color: #f0f2f4;
+	text-decoration: none;
+}
+.navbartop .phone a:hover,
+.navbartop .email a:hover,
+.navbartop .book a:hover {
+	text-decoration: underline;
+}
+/*Tablet and Mobile*/
+@media (max-width: 991px){
 	.navbar-brand.asimg img {
 		height: 45px;
+	}	
+	.navbar-brand::after {
+		display: block;
+		content: '';
+		background: rgba(51,51,51,0.50);
+		height: 1px;
+		margin: 16px 0 -16px;
+	}
+	.navbar-nav {
+		margin: 2px 0px 2px;
+		padding: 0 15px;
+	}
+	.navbar-nav > li > a {
+		line-height: 15px;
+		padding: 0px;
+		margin: 9px 0px 9px;
 	}
 	.navbar-toggler {
 		margin-right: 10px;
 		margin-top: 21px;
 	}
-	.navbar-nav {
-		margin: -5px 0 10px;
-	}
+}
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 991px){
 }
 
 /* Mobile */
 @media (max-width: 767px) {
-	.navbar-nav {
-		margin: -5px 0 10px;
-	}
     .navbar-nav > li > a {
-		line-height: 15px;
-		padding: 0px;
-		margin: 7px 0px 7px 15px;
-	}
-	.navbar-brand.asimg {
-		display: none;
+		margin: 7px 0px 7px;
 	}
 	.navbar {
 		min-height: 0px;
 		padding: 0px;
 		margin: 0px;
 	}
-	.navbar-brand.astxt {
-		padding: 12px;
-		padding-left: 15px;
-		font-size:18px;
-		line-height: 24px;
-		color:#00ACA2;
-		font-weight: bold;
+	.navbartop .phone {
+		margin-right: 20px;
 	}
 }
