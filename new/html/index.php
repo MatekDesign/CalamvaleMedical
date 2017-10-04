@@ -138,21 +138,18 @@
     <div class="content-3">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12 col-lg-8">
                     <div class="content-3-img">
-                            <img src="resources/img/placeholder.png"> 
+                    	<div id="teamphoto"></div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-12 col-lg-4">
                     <div class="content-3-innner-text">
                             <div class="content-3-big-text">Meet our team</div>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id venenatis nibh. In hac habitasse platea dictumst. Donec nec felis at nulla rutrum scelerisque at sit amet mi. Duis sit amet dolor non eros condimentum tincidunt eget sed lectus. 
                             <br>
                             <br>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id venenatis nibh. In hac habitasse platea dictumst. Donec nec felis at nulla rutrum scelerisque at sit amet mi. Duis sit amet dolor non eros condimentum tincidunt eget sed lectus. 
-                            <br>
-                            <br>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id venenatis nibh. In hac habitasse platea dictumst. 
                             <br>
                             <br>
                             <form>

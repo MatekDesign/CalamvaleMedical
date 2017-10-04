@@ -22,7 +22,7 @@
 {
 	height: calc(100vh - 139px);
 	width: 100vw;
-	background-position: center center;
+	background-position: center 0;
 	background-size: cover; 
 	background-repeat: no-repeat;
     background-attachment: fixed;
