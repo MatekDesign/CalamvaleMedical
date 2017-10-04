@@ -20,7 +20,7 @@
 
 .carousel-item
 {
-	height: calc(100vh - 108px);
+	height: calc(100vh - 139px);
 	width: 100vw;
 	background-position: center center;
 	background-size: cover; 
@@ -50,7 +50,7 @@
 @media (min-width: 768px) and (max-width: 991px){
 	.carousel-item
     {
-		height: calc(100vh - 75px);
+		height: calc(100vh - 107px);
     }
 	
 	.carousel-item div {
@@ -62,7 +62,7 @@
 @media (max-width: 767px) {
 	.carousel-item
     {
-		height: calc(100vh - 48px);
+		height: calc(100vh - 107px);
     }
 	.carousel-item div {
 		min-width: 67%;
