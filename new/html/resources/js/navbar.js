@@ -1,11 +1,11 @@
 $(document).ready(function () {
-	onScaleChange();
+	onScaleChangeNavbar();
 });
 $(window).resize(function () {
-	onScaleChange();
+	onScaleChangeNavbar();
 });
 
-function onScaleChange() {
+function onScaleChangeNavbar() {
 	if (screen.width < 991) {
 		$('.navbartop .book.max').addClass('d-none');
 		$('.navbartop .book.min').removeClass('d-none');

@@ -34,22 +34,22 @@
             <div class="carousel-inner">
                 <div class="carousel-item active" style="background-image: url('resources/img/background-man.jpeg');">
                     <div class="carousel-caption">
-                        <h3>Depenable health care and memes</h3>
-                        <p>Pepe will come to your house at midnight tonight</p>
+                        <h3>Depenable health care</h3>
+                        <p>Committed to providing comprehensive care to all</p>
                         <button class="header-button" type="submit">BOOK AN APPOINTMENT</button>
                     </div>
                 </div>
                 <div class="carousel-item" style="background-image: url('resources/img/skeleton.jpg');">
                     <div class="carousel-caption d-md-block">
-                        <h3>nd memes</h3>
-                        <p>Pepe will house at midnight tonight</p>
+                        <h3>Highest Medical Standards</h3>
+                        <p>We consistantly provide the highest standard of health care</p>
                         <button class="header-button" type="submit">BOOK AN APPOINTMENT</button>
                     </div>
                 </div>
                 <div class="carousel-item" style="background-image: url('resources/img/background-hospital.jpeg');">
                     <div class="carousel-caption">
-                        <h3>Depenable h and memes</h3>
-                        <p>Pepe will comdnight tonight</p>
+                        <h3>Family Friendly</h3>
+                        <p>We provide a insert sample text?</p>
                         <button class="header-button" type="submit">BOOK AN APPOINTMENT</button>
                     </div>
                 </div>
@@ -101,10 +101,10 @@
                 <div class="col-md-4">
 
                 </div>
-                </div class="col-md-4">
+                <div class="col-md-4">
 
                 </div>
-                </div class="col-md-4">
+                <div class="col-md-4">
                 
                 </div>
             </div>
@@ -114,19 +114,19 @@
         <div class="vertical-align">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-xs-12 col-md-3">
                          <div class="content-2-big-text-1">368</div>
                          <div class="content-2-small-text-1">people go for monthly checkups</div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-xs-12 col-md-3">
                          <div class="content-2-big-text-1">368</div>
                          <div class="content-2-small-text-1">people go for monthly checkups</div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-xs-12 col-md-3">
                          <div class="content-2-big-text-1">368</div>
                          <div class="content-2-small-text-1">people go for monthly checkups</div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-xs-12 col-md-3">
                          <div class="content-2-big-text-1">368</div>
                          <div class="content-2-small-text-1">people go for monthly checkups</div>
                     </div>
@@ -199,5 +199,6 @@
         </div>
     </div>
     <?php include_once 'footer.php'; ?>
+    <script src="resources/js/index.js"></script>
 </body>
 </html>
