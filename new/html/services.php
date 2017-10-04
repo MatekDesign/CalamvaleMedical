@@ -7,10 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <?php include_once 'resources.php'; ?>
-    <script src="resources/js/index.js"></script>
-    <link href="resources/header2.css" rel="stylesheet">
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKpizFlgH-vwYio016p65LWhX3lIjwEgk&callback=initMap" async defer></script>
-        
+    <link href="resources/header2.css" rel="stylesheet">        
     <style>
         #map {
             height: 350px;
@@ -130,9 +127,6 @@
     <br>
 
     <?php include_once 'footer.php'; ?>
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
-	<script src="https://v4-alpha.getbootstrap.com/dist/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script>
         function UpdateText(element) {
             document.getElementById("service1").style.display = "none";

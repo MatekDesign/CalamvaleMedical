@@ -76,6 +76,9 @@ body {
 }
 /*Tablet and Mobile*/
 @media (max-width: 991px){
+	.navbar-brand.asimg {
+		width: 180px;
+	}	
 	.navbar-brand.asimg img {
 		height: 45px;
 	}	

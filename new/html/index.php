@@ -202,9 +202,5 @@
         </div>
     </div>
     <?php include_once 'footer.php'; ?>
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
-	<script src="https://v4-alpha.getbootstrap.com/dist/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="resources/js/index.js"></script>
 </body>
 </html>
