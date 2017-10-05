@@ -199,6 +199,6 @@
         </div>
     </div>
     <?php include_once 'footer.php'; ?>
-    <script src="resources/js/index.js"></script>
+    <script src="resources/js/index.js?<?php echo time(); ?>"></script>
 </body>
 </html>
