@@ -8,7 +8,7 @@
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 	<?php include_once 'resources.php'; ?>
-	<link href="resources/services.css" rel="stylesheet">
+	<link href="resources/information.css" rel="stylesheet">
 
 	<title>Calamvale Medical Center</title>
 </head>
@@ -20,7 +20,7 @@
 	<div class="header">
 		<div class="header-vertical-align">
 			<center>
-				<span class="header-title">OUR SERVICES</span>
+				<span class="header-title">CLINIC INFORMATION</span>
 			</center>
 		</div>
 	</div>
@@ -164,6 +164,96 @@
 							Please ask our reception staff about the costs of these medicals, and please advise at the time of booking your appointment that it is for a medical, so that the appropriate length of appointment can be given.
 							<br><br>
 							Remember to fill out all the relevant information of the forms prior to seeing the Doctor.
+						</div>
+					</div>
+				</div>
+				
+				<div class="card">
+					<div class="card-header" role="tab" id="heading9">
+						<h5 class="mb-0">
+						<a class="collapsed" data-toggle="collapse" href="#collapse9" aria-expanded="false" aria-controls="collapse9">
+							
+						</a>
+						</h5>
+					</div>
+					<div id="collapse9" class="collapse" role="tabpanel" aria-labelledby="heading9" data-parent="#accordion">
+						<div class="card-body">
+							
+						</div>
+					</div>
+				</div>
+				
+				<div class="card">
+					<div class="card-header" role="tab" id="heading10">
+						<h5 class="mb-0">
+						<a class="collapsed" data-toggle="collapse" href="#collapse10" aria-expanded="false" aria-controls="collapse10">
+							
+						</a>
+						</h5>
+					</div>
+					<div id="collapse10" class="collapse" role="tabpanel" aria-labelledby="heading10" data-parent="#accordion">
+						<div class="card-body">
+							
+						</div>
+					</div>
+				</div>
+				
+				<div class="card">
+					<div class="card-header" role="tab" id="heading11">
+						<h5 class="mb-0">
+						<a class="collapsed" data-toggle="collapse" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+							
+						</a>
+						</h5>
+					</div>
+					<div id="collapse11" class="collapse" role="tabpanel" aria-labelledby="heading11" data-parent="#accordion">
+						<div class="card-body">
+							
+						</div>
+					</div>
+				</div>
+				
+				<div class="card">
+					<div class="card-header" role="tab" id="heading12">
+						<h5 class="mb-0">
+						<a class="collapsed" data-toggle="collapse" href="#collapse12" aria-expanded="false" aria-controls="collapse12">
+							
+						</a>
+						</h5>
+					</div>
+					<div id="collapse12" class="collapse" role="tabpanel" aria-labelledby="heading12" data-parent="#accordion">
+						<div class="card-body">
+							
+						</div>
+					</div>
+				</div>
+				
+				<div class="card">
+					<div class="card-header" role="tab" id="heading13">
+						<h5 class="mb-0">
+						<a class="collapsed" data-toggle="collapse" href="#collapse13" aria-expanded="false" aria-controls="collapse13">
+							
+						</a>
+						</h5>
+					</div>
+					<div id="collapse13" class="collapse" role="tabpanel" aria-labelledby="heading13" data-parent="#accordion">
+						<div class="card-body">
+							
+						</div>
+					</div>
+				</div>
+				
+				<div class="card">
+					<div class="card-header" role="tab" id="heading14">
+						<h5 class="mb-0">
+						<a class="collapsed" data-toggle="collapse" href="#collapse14" aria-expanded="false" aria-controls="collapse14">
+							
+						</a>
+						</h5>
+					</div>
+					<div id="collapse14" class="collapse" role="tabpanel" aria-labelledby="heading14" data-parent="#accordion">
+						<div class="card-body">
+							
 						</div>
 					</div>
 				</div>
