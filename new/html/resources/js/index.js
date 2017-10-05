@@ -6,7 +6,7 @@ $(window).resize(function () {
 });
 
 function onScaleChangeIndex() {
-	if (screen.width < 767) {
+	if (window.innerWidth < 767) {
 		$('.content-4 #2').addClass('d-none');
 	}
 	else {

@@ -13,7 +13,7 @@ $(window).resize(function () {
 });
 
 function onScaleChangeNavbar() {
-	if (screen.width < 991) {
+	if (window.innerWidth < 991) {
 		$('.navbartop .book.max').addClass('d-none');
 		$('.navbartop .book.min').removeClass('d-none');
 	}
@@ -21,7 +21,7 @@ function onScaleChangeNavbar() {
 		$('.navbartop .book.max').removeClass('d-none');
 		$('.navbartop .book.min').addClass('d-none');
 	}
-	if (screen.width < 540) {
+	if (window.innerWidth < 540) {
 		$('.navbartop .email').addClass('d-none');
 	}
 	else {
