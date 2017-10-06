@@ -20,6 +20,16 @@
     <title>Calamvale Medical Center</title>
 </head>
 <body>
+    <div class="bookappointment" id="bookappointment">
+        <div class="vertical-align">
+            <div class="card book-content">
+                <script data-he-id="16444" data-he-button="true" data-he-img="HE_BOOKNOW_1.png" src="https://healthengine.com.au/webplugin/appointments.js"></script>
+                or<br>
+                Call <a href="tel:+61 X XXXX XXXX">+61 X XXXX XXXX</a><br><br>
+                <button class="btn btn-danger book-button" type="submit" onClick="document.getElementById('bookappointment').style.display = 'none';">Close</button>
+            </div>
+        </div>
+    </div>
     <?php include 'navbar.php'; ?>
 
     <!-- Header -->
@@ -35,21 +45,21 @@
                     <div class="carousel-caption">
                         <h3>Depenable health care</h3>
                         <p>Committed to providing comprehensive care to all</p>
-                        <button class="header-button" type="submit">BOOK AN APPOINTMENT</button>
+                        <button class="header-button" type="submit" onClick="headerButtonClicked()">BOOK AN APPOINTMENT</button>
                     </div>
                 </div>
                 <div class="carousel-item" style="background-image: url('resources/img/skeleton.jpg');">
                     <div class="carousel-caption d-md-block">
                         <h3>Highest Medical Standards</h3>
                         <p>We consistantly provide the highest standard of health care</p>
-                        <button class="header-button" type="submit">BOOK AN APPOINTMENT</button>
+                        <button class="header-button" type="submit" onClick="headerButtonClicked()">BOOK AN APPOINTMENT</button>
                     </div>
                 </div>
                 <div class="carousel-item" style="background-image: url('resources/img/background-hospital.jpeg');">
                     <div class="carousel-caption">
                         <h3>Family Friendly</h3>
                         <p>We provide a insert sample text?</p>
-                        <button class="header-button" type="submit">BOOK AN APPOINTMENT</button>
+                        <button class="header-button" type="submit" onClick="headerButtonClicked()">BOOK AN APPOINTMENT</button>
                     </div>
                 </div>
             </div>
@@ -63,6 +73,12 @@
             </a>
         </div>
     </div>
+    <script>
+        function headerButtonClicked() {
+            var elem = document.getElementById("bookappointment");
+            elem.style.display = "inherit";
+        }
+    </script>
     <br>
 
     <div class="content-100">
@@ -80,22 +96,22 @@
                 Quick Links
             </div>-->
             <div class="row content-6-content">
-                <div class="col-md-3" id="element-1">
+                <div class="col-md-3" id="element" style="background-image: url('resources/img/lake.jpeg');">
                     <div class="vertical-align">
                         After hours
                     </div>
                 </div>
-                <div class="col-md-3" id="element-2">
+                <div class="col-md-3" id="element" style="background-image: url('resources/img/appointment2.jpeg');">
                     <div class="vertical-align">
                         Book An Appointment
                     </div>
                 </div>
-                <div class="col-md-3" id="element-3">
+                <div class="col-md-3" id="element" style="background-image: url('resources/img/ourteamidk.jpg');">
                     <div class="vertical-align">
                         Our Team
                     </div>
                 </div>
-                <div class="col-md-3" id="element-4">
+                <div class="col-md-3" id="element" style="background-image: url('resources/img/telephone.jpeg');">
                     <div class="vertical-align">
                         Contact/Locate Us
                     </div>
