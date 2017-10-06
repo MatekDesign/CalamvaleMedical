@@ -8,7 +8,6 @@
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 	<?php include_once 'resources.php'; ?>
-	<link href="resources/services.css" rel="stylesheet">
 
 	<title>Calamvale Medical Center</title>
 </head>
@@ -39,11 +38,9 @@
 			<br>
 			<div id="accordion" role="tablist">
 				<div class="card">
-					<div class="card-header" role="tab" id="heading1">
+					<div class="card-header" role="tab" id="heading1" data-toggle="collapse" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
 						<h5 class="mb-0">
-						<a data-toggle="collapse" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
 						Minor Surgery
-						</a>
 						</h5>
 					</div>
 					<div id="collapse1" class="collapse show" role="tabpanel" aria-labelledby="heading1" data-parent="#accordion">
@@ -54,11 +51,9 @@
 				</div>
 				
 				<div class="card">
-					<div class="card-header" role="tab" id="heading2">
+					<div class="card-header" role="tab" id="heading2" class="collapsed" data-toggle="collapse" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
 						<h5 class="mb-0">
-						<a class="collapsed" data-toggle="collapse" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
 						Maternity Care and Family Planning
-						</a>
 						</h5>
 					</div>
 					<div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="heading2" data-parent="#accordion">
@@ -69,11 +64,9 @@
 				</div>
 				
 				<div class="card">
-					<div class="card-header" role="tab" id="heading3">
+					<div class="card-header" role="tab" id="heading3" class="collapsed" data-toggle="collapse" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
 						<h5 class="mb-0">
-						<a class="collapsed" data-toggle="collapse" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
 						Baby Growth and Maternity Advice
-						</a>
 						</h5>
 					</div>
 					<div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="heading3" data-parent="#accordion">
@@ -84,11 +77,9 @@
 				</div>
 				
 				<div class="card">
-					<div class="card-header" role="tab" id="heading4">
+					<div class="card-header" role="tab" id="heading4" class="collapsed" data-toggle="collapse" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
 						<h5 class="mb-0">
-						<a class="collapsed" data-toggle="collapse" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
 						Immunisation
-						</a>
 						</h5>
 					</div>
 					<div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="heading4" data-parent="#accordion">
@@ -103,11 +94,9 @@
 				</div>
 				
 				<div class="card">
-					<div class="card-header" role="tab" id="heading5">
+					<div class="card-header" role="tab" id="heading5" class="collapsed" data-toggle="collapse" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
 						<h5 class="mb-0">
-						<a class="collapsed" data-toggle="collapse" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
 						Travel Health and Vaccination Service
-						</a>
 						</h5>
 					</div>
 					<div id="collapse5" class="collapse" role="tabpanel" aria-labelledby="heading5" data-parent="#accordion">
@@ -118,11 +107,9 @@
 				</div>
 				
 				<div class="card">
-					<div class="card-header" role="tab" id="heading6">
+					<div class="card-header" role="tab" id="heading6" class="collapsed" data-toggle="collapse" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
 						<h5 class="mb-0">
-						<a class="collapsed" data-toggle="collapse" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
 						Counselling
-						</a>
 						</h5>
 					</div>
 					<div id="collapse6" class="collapse" role="tabpanel" aria-labelledby="heading6" data-parent="#accordion">
@@ -135,11 +122,9 @@
 				</div>
 				
 				<div class="card">
-					<div class="card-header" role="tab" id="heading7">
+					<div class="card-header" role="tab" id="heading7" class="collapsed" data-toggle="collapse" href="#collapse7" aria-expanded="false" aria-controls="collapse7">
 						<h5 class="mb-0">
-						<a class="collapsed" data-toggle="collapse" href="#collapse7" aria-expanded="false" aria-controls="collapse7">
 						Skin Checks
-						</a>
 						</h5>
 					</div>
 					<div id="collapse7" class="collapse" role="tabpanel" aria-labelledby="heading7" data-parent="#accordion">
@@ -150,11 +135,9 @@
 				</div>
 				
 				<div class="card">
-					<div class="card-header" role="tab" id="heading8">
+					<div class="card-header" role="tab" id="heading8" class="collapsed" data-toggle="collapse" href="#collapse8" aria-expanded="false" aria-controls="collapse8">
 						<h5 class="mb-0">
-						<a class="collapsed" data-toggle="collapse" href="#collapse8" aria-expanded="false" aria-controls="collapse8">
 						Medicals
-						</a>
 						</h5>
 					</div>
 					<div id="collapse8" class="collapse" role="tabpanel" aria-labelledby="heading8" data-parent="#accordion">
