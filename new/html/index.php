@@ -12,15 +12,14 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKpizFlgH-vwYio016p65LWhX3lIjwEgk&callback=initMap" async defer></script>
         
     <style>
-#map {
-	height: 350px;
-	margin-bottom: 10px;
-}
-
-</style>
+	#map {
+		height: 350px;
+		margin-bottom: 10px;
+	}
+	</style>
     <title>Calamvale Medical Center</title>
-    </head>
-    <body>
+</head>
+<body>
     <?php include 'navbar.php'; ?>
 
     <!-- Header -->
