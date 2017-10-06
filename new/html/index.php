@@ -66,7 +66,44 @@
     </div>
     <br>
 
+    <div class="content-100">
+        <div class="container-fluid"> 
+            <h2>Welcome!</h2> 
+            <span>We welcome you to our practice, where we provide a full range of family medical care. It is our aim to provide the highest standard of health care.<br><br>
 
+            We are committed to providing comprehensive care to all individuals and families in our community.</span>
+        </div>
+    </div>
+    <br>
+    <div class="content-6">
+        <!--<div class="container-fluid">
+            <div class="row content-6-header">
+                Quick Links
+            </div>-->
+            <div class="row content-6-content">
+                <div class="col-md-3" id="element-1">
+                    <div class="vertical-align">
+                        After hours
+                    </div>
+                </div>
+                <div class="col-md-3" id="element-2">
+                    <div class="vertical-align">
+                        Book An Appointment
+                    </div>
+                </div>
+                <div class="col-md-3" id="element-3">
+                    <div class="vertical-align">
+                        Our Team
+                    </div>
+                </div>
+                <div class="col-md-3" id="element-4">
+                    <div class="vertical-align">
+                        Contact/Locate Us
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="content-1">
         <div class="container-fluid">
             <div class="row">
@@ -95,21 +132,6 @@
         </div>
     </div>
     <br>
-    <div class="content-6">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4">
-
-                </div>
-                <div class="col-md-4">
-
-                </div>
-                <div class="col-md-4">
-                
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="content-2">
         <div class="vertical-align">
             <div class="container-fluid">
