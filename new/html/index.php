@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <?php include_once 'resources.php'; ?>
-    <link href="resources/index.css" rel="stylesheet">
+    <link href="resources/index.css?<?php echo time(); ?>" rel="stylesheet">
     <script src="resources/js/map.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKpizFlgH-vwYio016p65LWhX3lIjwEgk&callback=initMap" async defer></script>
         
@@ -25,7 +25,7 @@
             <div class="card book-content">
                 <script data-he-id="16444" data-he-button="true" data-he-img="HE_BOOKNOW_1.png" src="https://healthengine.com.au/webplugin/appointments.js"></script>
                 or<br>
-                Call <a href="tel:+61 X XXXX XXXX">+61 X XXXX XXXX</a><br><br>
+                Call <a href="tel:07 3272 5155">(07) 3272 5155</a><br>
                 <button class="btn btn-danger book-button" type="submit" onClick="document.getElementById('bookappointment').style.display = 'none';">Close</button>
             </div>
         </div>

@@ -12,11 +12,12 @@
     margin-right: auto;
     display: block;
     background-color: white;
-    width: 300px;
+    width: 350px;
     border-radius: 8px;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
+	line-height: 30px
 }
 #bookappointment .book-content #bookonline {
     width: 180px;
@@ -187,6 +188,9 @@
 	.content-3-img {
     	padding: 0;
 	}
+	#bookappointment .book-content {
+    	width: 300px;
+	}
 }
 
 /* Mobile XS custom*/
@@ -199,4 +203,8 @@
 		background-size: 100%;
 		background-repeat: no-repeat;
 	}
+}
+.book-button {
+	margin-top: 20px;
+	width: 155px;
 }

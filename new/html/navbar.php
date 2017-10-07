@@ -3,16 +3,16 @@
 <div class="navbartop">
 	<div class="container">
 		<div class="pull-left phone">
-			<i class="fa fa-phone" aria-hidden="true"></i> &nbsp;&nbsp; Phone: <a href="tel:+61 X XXXX XXXX">+61 X XXXX XXXX</a>
+			<i class="fa fa-phone" aria-hidden="true"></i> &nbsp;&nbsp; Phone: <a href="tel:07 3272 5155">(07) 3272 5155</a>
 		</div>
 		<div class="pull-left email">
-			<i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;&nbsp; Email: <a href="mailto:XXXX@XXXX.com">XXXX@XXXX.com</a>
+			<i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;&nbsp; Email: <a href="mailto:info@calamvalemedical.com.au">info@calamvalemedical.com.au</a>
 		</div>
 		<div class="pull-right book max">
-			 Want to book an appointment? <a href="XXX.XXX">BOOK NOW</a>
+			 Want to book an appointment? <a onClick="headerButtonClicked()">BOOK NOW</a>
 		</div> 
 		<div class="pull-right book min d-none">
-			 <a href="XXX.XXX">BOOK NOW</a>
+			 <a onClick="headerButtonClicked()">BOOK NOW</a>
 		</div>         
 	</div>
 </div>
