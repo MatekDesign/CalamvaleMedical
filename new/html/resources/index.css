@@ -67,6 +67,8 @@
 	font-style: bold;
     font-weight: 600;
 	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.35);
+	user-select: none;
+	cursor: pointer;
 }
 
 
@@ -76,6 +78,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+	margin-top: 16px;
 }
 .content-1 .col-md-4 {
     padding: 15px 15px 15px 15px;
@@ -142,7 +145,7 @@
 	border-radius: 12px;
 	background: #26A2B1;
 	font-family: inherit;
-	color: #e8e8e8;
+	color: #FFFFFF;
 	font-size: 20px;
 	cursor: pointer;
 	text-align: left;

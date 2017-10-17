@@ -13,6 +13,7 @@
 .card-header h5 {
 	color: #007bff;
 	cursor: pointer;
+	user-select: none;
 }
 
 .card-header:hover h5 {

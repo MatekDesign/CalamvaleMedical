@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
+	
     <?php include_once 'resources.php'; ?>
     <link href="resources/index.css?<?php echo time(); ?>" rel="stylesheet">        
     <style>
@@ -112,22 +112,22 @@
                 Quick Links
             </div>-->
             <div class="row content-6-content">
-                <div class="col-md-3" id="element" style="background-image: url('resources/img/lake.jpeg');">
+                <div class="col-md-3" id="element" style="background-image: url('resources/img/lake.jpeg');" onClick="window.location.href = 'information.php';">
                     <div class="vertical-align">
                         After hours
                     </div>
                 </div>
-                <div class="col-md-3" id="element" style="background-image: url('resources/img/appointment2.jpeg');">
+                <div class="col-md-3" id="element" style="background-image: url('resources/img/appointment2.jpeg');" onClick="headerButtonClicked()">
                     <div class="vertical-align">
                         Book An Appointment
                     </div>
                 </div>
-                <div class="col-md-3" id="element" style="background-image: url('resources/img/ourteamidk.jpg');">
+                <div class="col-md-3" id="element" style="background-image: url('resources/img/ourteamidk.jpg');" onClick="window.location.href = 'ourteam.php';">
                     <div class="vertical-align">
                         Our Team
                     </div>
                 </div>
-                <div class="col-md-3" id="element" style="background-image: url('resources/img/telephone.jpeg');">
+                <div class="col-md-3" id="element" style="background-image: url('resources/img/telephone.jpeg');" onClick="window.location.href = 'ourteam.php';">
                     <div class="vertical-align">
                         Contact/Locate Us
                     </div>
@@ -191,12 +191,12 @@
     <div class="content-3">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12 col-lg-8">
+                <div class="col-md-12 col-lg-8 col-xl-6">
                     <div class="content-3-img">
                     	<div id="teamphoto"></div>
                     </div>
                 </div>
-                <div class="col-md-12 col-lg-4">
+                <div class="col-md-12 col-lg-4 col-xl-6">
                     <div class="content-3-innner-text">
                             <div class="content-3-big-text">Meet our team</div>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id venenatis nibh. In hac habitasse platea dictumst. Donec nec felis at nulla rutrum scelerisque at sit amet mi. Duis sit amet dolor non eros condimentum tincidunt eget sed lectus. 
