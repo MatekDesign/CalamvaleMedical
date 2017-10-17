@@ -7,17 +7,14 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <?php include_once 'resources.php'; ?>
-    <link href="resources/index.css?<?php echo time(); ?>" rel="stylesheet">
-    <script src="resources/js/map.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKpizFlgH-vwYio016p65LWhX3lIjwEgk&callback=initMap" async defer></script>
-        
+    <link href="resources/index.css?<?php echo time(); ?>" rel="stylesheet">        
     <style>
 	#map {
 		height: 350px;
 		margin-bottom: 10px;
 	}
 	</style>
-    <title>Calamvale Medical Center</title>
+    <title>Calamvale Medical Centre</title>
 </head>
 <body>
     <div class="bookappointment" id="bookappointment">
@@ -256,5 +253,7 @@
     </div>
     <?php include_once 'footer.php'; ?>
     <script src="resources/js/index.js?<?php echo time(); ?>"></script>
+    <script src="resources/js/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKpizFlgH-vwYio016p65LWhX3lIjwEgk&callback=initMap" async defer></script>
 </body>
 </html>

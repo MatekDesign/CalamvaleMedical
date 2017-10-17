@@ -9,7 +9,7 @@
 
 	<?php include_once 'resources.php'; ?>
 
-	<title>Calamvale Medical Center</title>
+	<title>Calamvale Medical Centre</title>
 </head>
 
 <body>

@@ -18,7 +18,7 @@
 }
 
 </style>
-    <title>Calamvale Medical Center</title>
+    <title>Calamvale Medical Centre</title>
     </head>
     <body>
     <?php include 'navbar.php'; ?>

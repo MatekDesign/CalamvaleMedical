@@ -9,7 +9,7 @@
         <?php include 'resources.php'; ?>
 		<link href="resources/aboutus.css" rel="stylesheet">
         
-        <title>Calamvale Medical Center</title>
+        <title>Calamvale Medical Centre</title>
     </head>
     <body>
         <?php include 'navbar.php'; ?>

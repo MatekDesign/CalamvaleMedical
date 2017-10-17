@@ -17,7 +17,7 @@
 		margin-bottom: 10px;
 	}
 	</style>
-	<title>Calamvale Medical Center</title>
+	<title>Calamvale Medical Centre</title>
 </head>
 
 <body>
