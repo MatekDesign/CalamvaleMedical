@@ -61,10 +61,10 @@ body {
 	color: #f0f2f4;
 	display: inline-block;
 }
-.navbartop .book {
-}
 .navbartop .book a {
 	font-weight: bold;
+	user-select: none;
+	cursor: pointer;
 }
 .navbartop .phone a,
 .navbartop .email a,

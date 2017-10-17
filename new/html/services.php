@@ -14,7 +14,8 @@
 
 <body>
 	<?php include 'navbar.php'; ?>
-
+	<?php include 'booksnippet.php'; ?>
+	
 	<!-- Header -->
 	<div class="header">
 		<div class="header-vertical-align">
