@@ -1,8 +1,4 @@
-#accordion {
-	border: 1px solid #bfbfbf;
-	border-radius: 5px;
-}
-#accordion .card {
+.card {
 	border: none;
 }
 
@@ -22,29 +18,27 @@
 }
 
 #bookappointment {
-    z-index: 100;
+    z-index: 1000;
     position: absolute;
+    height: 100vh;
     width: 100vw;
-    height: 100%;
     background-color: rgba(0, 0, 0, 0.75);
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.35);
     display: none;
 }
-#bookappointment .book-content {
+.book-content {
     margin-left: auto;
     margin-right: auto;
     display: block;
     background-color: white;
-    width: 350px;
     border-radius: 8px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px, 15px, 15px, 15px;
     text-align: center;
-	line-height: 30px
+    line-height: 30px;
+    width: fit-content;
+    height: fit-content;
 }
-#bookappointment .book-content #bookonline {
-    width: 180px;
-}
-.book-content span {
-    margin: 5px 5px 5px 5px;
+.book-content div {
+    width: fit-content;
+    height: fit-content;
 }

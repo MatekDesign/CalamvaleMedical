@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	
+    
+    <?php include 'booksnippet.php'; ?>
     <?php include_once 'resources.php'; ?>
     <link href="resources/index.css?<?php echo time(); ?>" rel="stylesheet">        
     <style>
@@ -18,7 +19,6 @@
 </head>
 <body>
 	<?php include 'navbar.php'; ?>
-    <?php include 'booksnippet.php'; ?>
     
     <!-- Header -->
     <div class="parallax">
@@ -33,7 +33,7 @@
                     <div class="carousel-caption">
                         <h3>Depenable health care</h3>
                         <p>Committed to providing comprehensive care to all</p>
-                        <button class="header-button" type="submit" onClick="headerButtonClicked()">BOOK AN APPOINTMENT</button>
+                        <button class="header-button" type="submit">BOOK AN APPOINTMENT</button>
                     </div>
                 </div>
                 <div class="carousel-item" style="background-image: url('resources/img/skeleton.jpg');">
