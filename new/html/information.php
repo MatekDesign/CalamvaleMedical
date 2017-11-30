@@ -297,7 +297,7 @@
 				</div>
 			</div>
 			<br>
-			<div class="col-xs-12 col-md-10 ml-3 ml-auto mr-auto">
+			<div class="col-md-12 ml-3 ml-auto mr-auto">
 				<h2>Location</h2>
 				<div id="map"></div>
 			</div>

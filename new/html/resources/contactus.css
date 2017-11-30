@@ -1,0 +1,30 @@
+.contact-header {
+	margin-top: 20px;
+    width: 100%;
+    height: 20px;
+    color: #4b4b4b;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.contact-body {
+	width: 100%;
+    height: auto;
+    color: #666;
+    font-size: 13px;
+    line-height: 20px;
+	
+	margin-bottom: 25px;
+}
+.contact-body a {
+	color: #666;
+    text-decoration-color: #666;
+    text-decoration: none;
+}
+.contact-body a:hover {
+	text-decoration: underline;
+}
+#map {
+	height: 320px;
+}

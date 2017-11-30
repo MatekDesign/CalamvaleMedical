@@ -36,7 +36,7 @@
 				<a class="nav-link" href="ourteam.php">Our Team</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">Contact Us</a>
+				<a class="nav-link" href="contactus.php">Contact Us</a>
 			</li>
 		</ul>
 	</div>
