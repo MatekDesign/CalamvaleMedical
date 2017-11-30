@@ -7,14 +7,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<?php include_once 'resources.php'; ?>
+	<?php include_once 'parts/resources.php'; ?>
 
 	<title>Calamvale Medical Centre</title>
 </head>
 
 <body>
-	<?php include 'navbar.php'; ?>
-	<?php include 'booksnippet.php'; ?>
+	<?php include 'parts/navbar.php'; ?>
+	<?php include 'parts/booksnippet.php'; ?>
 	
 	<!-- Header -->
 	<div class="header">
@@ -155,7 +155,7 @@
 		</div>
 	</div>
 	<br>
-	<?php include_once 'footer.php'; ?>
+	<?php include_once 'parts/footer.php'; ?>
 </body>
 
 </html>

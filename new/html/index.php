@@ -6,19 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     
-    <?php include 'booksnippet.php'; ?>
-    <?php include_once 'resources.php'; ?>
-    <link href="resources/index.css?<?php echo time(); ?>" rel="stylesheet">        
-    <style>
-	#map {
-		height: 350px;
-		margin-bottom: 10px;
-	}
-	</style>
+    <?php include 'parts/booksnippet.php'; ?>
+    <?php include_once 'parts/resources.php'; ?>
+    <link href="css/index.css?<?php echo time(); ?>" rel="stylesheet">        
     <title>Calamvale Medical Centre</title>
 </head>
 <body>
-	<?php include 'navbar.php'; ?>
+	<?php include 'parts/navbar.php'; ?>
     
     <!-- Header -->
     <div class="parallax">
@@ -29,21 +23,21 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="carousel-item active" style="background-image: url('resources/img/background-man.jpeg');">
+                <div class="carousel-item active" style="background-image: url('img/background-man.jpeg');">
                     <div class="carousel-caption">
                         <h3>Depenable health care</h3>
                         <p>Committed to providing comprehensive care to all</p>
                         <button class="header-button" type="submit">BOOK AN APPOINTMENT</button>
                     </div>
                 </div>
-                <div class="carousel-item" style="background-image: url('resources/img/skeleton.jpg');">
+                <div class="carousel-item" style="background-image: url('img/skeleton.jpg');">
                     <div class="carousel-caption d-md-block">
                         <h3>Highest Medical Standards</h3>
                         <p>We consistantly provide the highest standard of health care</p>
                         <button class="header-button" type="submit" onClick="headerButtonClicked()">BOOK AN APPOINTMENT</button>
                     </div>
                 </div>
-                <div class="carousel-item" style="background-image: url('resources/img/background-hospital.jpeg');">
+                <div class="carousel-item" style="background-image: url('img/background-hospital.jpeg');">
                     <div class="carousel-caption">
                         <h3>Family Friendly</h3>
                         <p>We provide a insert sample text?</p>
@@ -78,22 +72,22 @@
                 Quick Links
             </div>-->
             <div class="row content-6-content">
-                <div class="col-md-3" id="element" style="background-image: url('resources/img/lake.jpeg');" onClick="window.location.href = 'information.php';">
+                <div class="col-md-3" id="element" style="background-image: url('img/lake.jpeg');" onClick="window.location.href = 'information.php';">
                     <div class="vertical-align">
                         After hours
                     </div>
                 </div>
-                <div class="col-md-3" id="element" style="background-image: url('resources/img/appointment2.jpeg');" onClick="headerButtonClicked()">
+                <div class="col-md-3" id="element" style="background-image: url('img/appointment2.jpeg');" onClick="headerButtonClicked()">
                     <div class="vertical-align">
                         Book An Appointment
                     </div>
                 </div>
-                <div class="col-md-3" id="element" style="background-image: url('resources/img/ourteamidk.jpg');" onClick="window.location.href = 'ourteam.php';">
+                <div class="col-md-3" id="element" style="background-image: url('img/ourteamidk.jpg');" onClick="window.location.href = 'ourteam.php';">
                     <div class="vertical-align">
                         Our Team
                     </div>
                 </div>
-                <div class="col-md-3" id="element" style="background-image: url('resources/img/telephone.jpeg');" onClick="window.location.href = 'ourteam.php';">
+                <div class="col-md-3" id="element" style="background-image: url('img/telephone.jpeg');" onClick="window.location.href = 'contactus.php';">
                     <div class="vertical-align">
                         Contact/Locate Us
                     </div>
@@ -196,7 +190,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-8" id="1">
-                    <div id="map"></div>
+                    <div id="map" style="height: 350px;margin-bottom: 10px;"></div>
                 </div>
                 <div class="col-md-3" id="2">
                     <div class="content-4-inner-text">
@@ -217,9 +211,9 @@
             </div>
         </div>
     </div>
-    <?php include_once 'footer.php'; ?>
-    <script src="resources/js/index.js?<?php echo time(); ?>"></script>
-    <script src="resources/js/map.js"></script>
+    <?php include_once 'parts/footer.php'; ?>
+    <script src="js/index.js?<?php echo time(); ?>"></script>
+    <script src="js/map.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKpizFlgH-vwYio016p65LWhX3lIjwEgk&callback=initMap" async defer></script>
 </body>
 </html>

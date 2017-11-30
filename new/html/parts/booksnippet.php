@@ -1,6 +1,7 @@
 <!-- All CSS for this should be placed in the site.css file please :D -->
 
-<div class="bookappointment" id="bookappointment">
+<!---------------------------------Commented off till fixed <3
+<div id="bookappointment">
 	<div class="vertical-align">
 	    <div class="card book-content">
 			<div>
@@ -20,3 +21,4 @@
 	}
 	*/
 </script>
+-->

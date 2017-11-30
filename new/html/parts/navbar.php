@@ -1,5 +1,3 @@
-<?php include_once "resources.php"; ?>
-
 <div class="navbartop">
 	<div class="container">
 		<div class="pull-left phone">
@@ -17,7 +15,7 @@
 	</div>
 </div>
 <nav class="navbar navbar-expand-md mb-4">
-	<a class="navbar-brand asimg" href="index.php"><img src="resources/img/logo.png" /></a>
+	<a class="navbar-brand asimg" href="index.php"><img src="img/logo.png" /></a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-toggler-icon"></span>
   	</button>
