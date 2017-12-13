@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     
-    <?php include 'parts/booksnippet.php'; ?>
     <?php include_once 'parts/resources.php'; ?>
     <link href="css/index.css?<?php echo time(); ?>" rel="stylesheet">        
     <title>Calamvale Medical Centre</title>
+<style>
+.he-webplugin-16444 {
+    img
+}
+</style>
 </head>
 <body>
 	<?php include 'parts/navbar.php'; ?>
@@ -27,21 +31,27 @@
                     <div class="carousel-caption">
                         <h3>Depenable health care</h3>
                         <p>Committed to providing comprehensive care to all</p>
-                        <button class="header-button" type="submit">BOOK AN APPOINTMENT</button>
+                        <button class="header-button" type="submit">
+                            <script data-he-id="16444" data-he-button="true" data-he-text="BOOK AN APPOINTMENT" data-he-style="margin: 0xp 0px 0px 0px; padding:0px 0px 0px 0px; background-color: #26A2B1;" data-he-button-style="font-family: 'Open Sans'; font-size: 20px;text-decoration: none;color: #fff;" data-he-img="dank.png" src="https://healthengine.com.au/webplugin/appointments.js"></script>   
+                        </button>
                     </div>
                 </div>
                 <div class="carousel-item" style="background-image: url('img/skeleton.jpg');">
                     <div class="carousel-caption d-md-block">
                         <h3>Highest Medical Standards</h3>
                         <p>We consistantly provide the highest standard of health care</p>
-                        <button class="header-button" type="submit" onClick="headerButtonClicked()">BOOK AN APPOINTMENT</button>
+                        <button class="header-button" type="submit">
+                            <script data-he-id="16444" data-he-button="true" data-he-text="BOOK AN APPOINTMENT" data-he-style="margin: 0xp 0px 0px 0px; padding:0px 0px 0px 0px; background-color: #26A2B1;" data-he-button-style="font-family: 'Open Sans'; font-size: 20px;text-decoration: none;color: #fff;" data-he-img="dank.png" src="https://healthengine.com.au/webplugin/appointments.js"></script>   
+                        </button>
                     </div>
                 </div>
                 <div class="carousel-item" style="background-image: url('img/background-hospital.jpeg');">
                     <div class="carousel-caption">
                         <h3>Family Friendly</h3>
                         <p>We provide a insert sample text?</p>
-                        <button class="header-button" type="submit" onClick="headerButtonClicked()">BOOK AN APPOINTMENT</button>
+                        <button class="header-button" type="submit">
+                            <script data-he-id="16444" data-he-button="true" data-he-text="BOOK AN APPOINTMENT" data-he-style="margin: 0xp 0px 0px 0px; padding:0px 0px 0px 0px; background-color: #26A2B1;" data-he-button-style="font-family: 'Open Sans'; font-size: 20px;text-decoration: none;color: #fff;" data-he-img="dank.png" src="https://healthengine.com.au/webplugin/appointments.js"></script>   
+                        </button>
                     </div>
                 </div>
             </div>
@@ -56,45 +66,19 @@
         </div>
     </div>
     <br>
+    <br>
 
     <div class="content-100">
-        <div class="container-fluid"> 
+        <div class="container-fluid">
+        <center> 
             <h2>Welcome!</h2> 
             <span>We welcome you to our practice, where we provide a full range of family medical care. It is our aim to provide the highest standard of health care.<br><br>
 
             We are committed to providing comprehensive care to all individuals and families in our community.</span>
         </div>
+        </center>
     </div>
     <br>
-    <div class="content-6">
-        <!--<div class="container-fluid">
-            <div class="row content-6-header">
-                Quick Links
-            </div>-->
-            <div class="row content-6-content">
-                <div class="col-md-3" id="element" style="background-image: url('img/lake.jpeg');" onClick="window.location.href = 'information.php';">
-                    <div class="vertical-align">
-                        After hours
-                    </div>
-                </div>
-                <div class="col-md-3" id="element" style="background-image: url('img/appointment2.jpeg');" onClick="headerButtonClicked()">
-                    <div class="vertical-align">
-                        Book An Appointment
-                    </div>
-                </div>
-                <div class="col-md-3" id="element" style="background-image: url('img/ourteamidk.jpg');" onClick="window.location.href = 'ourteam.php';">
-                    <div class="vertical-align">
-                        Our Team
-                    </div>
-                </div>
-                <div class="col-md-3" id="element" style="background-image: url('img/telephone.jpeg');" onClick="window.location.href = 'contactus.php';">
-                    <div class="vertical-align">
-                        Contact/Locate Us
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="content-1">
         <div class="container-fluid">
             <div class="row">
@@ -127,21 +111,9 @@
         <div class="vertical-align">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xs-12 col-md-3">
-                         <div class="content-2-big-text-1">368</div>
-                         <div class="content-2-small-text-1">people go for monthly checkups</div>
-                    </div>
-                    <div class="col-xs-12 col-md-3">
-                         <div class="content-2-big-text-1">368</div>
-                         <div class="content-2-small-text-1">people go for monthly checkups</div>
-                    </div>
-                    <div class="col-xs-12 col-md-3">
-                         <div class="content-2-big-text-1">368</div>
-                         <div class="content-2-small-text-1">people go for monthly checkups</div>
-                    </div>
-                    <div class="col-xs-12 col-md-3">
-                         <div class="content-2-big-text-1">368</div>
-                         <div class="content-2-small-text-1">people go for monthly checkups</div>
+                    <div class="col-md-12">
+                         <div class="content-2-big-text-1">"I have been going here for years with my family and it has been great service everytime"</div>
+                         <div class="content-2-small-text-1">- John Doe</div>
                     </div>
                 </div>
             </div>

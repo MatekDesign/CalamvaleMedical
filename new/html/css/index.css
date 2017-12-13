@@ -9,38 +9,6 @@
     display: block;
 }
 
-.content-6-header {
-    font-size: 50px;
-    padding-top: 5px;
-    padding-bottom:2px;
-    display: block;
-    text-align: center;
-    font-family: 'Montserrat';
-	color: white;
-	font-style: bold;
-    font-weight: 600;
-    background-color: #726767;
-	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.35);
-
-}
-.content-6-content #element{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    font-size: 40px;
-    height: 250px;
-    display: block;
-    text-align: center;
-    font-family: 'Montserrat';
-	color: white;
-	font-style: bold;
-    font-weight: 600;
-	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.35);
-	user-select: none;
-	cursor: pointer;
-}
-
-
 .content-1 {
     text-align: center;
     display: block;
@@ -79,8 +47,8 @@
     width: 90%;
 }
 .content-2-big-text-1 {
-    font-size: 75px;
-    color: #26A2B1;
+    font-size: 43px;
+    color: rgb(52, 186, 201);
     text-shadow: 0.75px 0.75px 2px rgba(0, 0, 0, 0.25);
 }
 .content-2-small-text-1 {
@@ -94,7 +62,9 @@
     width: 90%;
 }
 .content-3-img {
-    padding: 20px 20px 20px 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .content-3-img #teamphoto {
     width: 100%; 
@@ -141,6 +111,13 @@
     padding-left: 3px;
 }
 
+#bookappointment .book-content {
+    width: 800px;
+}
+
+#bookappointment {
+    display: none;  
+}
 
 /*Tablet and Mobile*/
 @media (max-width: 991px){
