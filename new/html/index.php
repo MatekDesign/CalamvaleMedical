@@ -13,6 +13,14 @@
 .he-webplugin-16444 {
     img
 }
+    #he-webplugin-16444 {
+        min-width: initial;    
+    }
+@media (max-width: 1999px){
+    #he-webplugin-16444 {
+        min-width: initial;
+    }
+}
 </style>
 </head>
 <body>
@@ -32,7 +40,7 @@
                         <h3>Depenable health care</h3>
                         <p>Committed to providing comprehensive care to all</p>
                         <button class="header-button" type="submit">
-                            <script data-he-id="16444" data-he-button="true" data-he-text="BOOK AN APPOINTMENT" data-he-style="margin: 0xp 0px 0px 0px; padding:0px 0px 0px 0px; background-color: #26A2B1;" data-he-button-style="font-family: 'Open Sans'; font-size: 20px;text-decoration: none;color: #fff;" data-he-img="dank.png" src="https://healthengine.com.au/webplugin/appointments.js"></script>   
+                            <script data-he-id="16444" data-he-button="true" data-he-text="BOOK AN APPOINTMENT" data-he-style="padding:0px 0px 0px 0px; background-color: #26A2B1;" data-he-button-style="text-decoration: none;color: #fff;" data-he-img="dank.png" src="https://healthengine.com.au/webplugin/appointments.js"></script>   
                         </button>
                     </div>
                 </div>
@@ -41,7 +49,7 @@
                         <h3>Highest Medical Standards</h3>
                         <p>We consistantly provide the highest standard of health care</p>
                         <button class="header-button" type="submit">
-                            <script data-he-id="16444" data-he-button="true" data-he-text="BOOK AN APPOINTMENT" data-he-style="margin: 0xp 0px 0px 0px; padding:0px 0px 0px 0px; background-color: #26A2B1;" data-he-button-style="font-family: 'Open Sans'; font-size: 20px;text-decoration: none;color: #fff;" data-he-img="dank.png" src="https://healthengine.com.au/webplugin/appointments.js"></script>   
+                            <script data-he-id="16444" data-he-button="true" data-he-text="BOOK AN APPOINTMENT" data-he-style="padding:0px 0px 0px 0px; background-color: #26A2B1;" data-he-button-style="text-decoration: none;color: #fff;" data-he-img="dank.png" src="https://healthengine.com.au/webplugin/appointments.js"></script>   
                         </button>
                     </div>
                 </div>
@@ -50,7 +58,7 @@
                         <h3>Family Friendly</h3>
                         <p>We provide a insert sample text?</p>
                         <button class="header-button" type="submit">
-                            <script data-he-id="16444" data-he-button="true" data-he-text="BOOK AN APPOINTMENT" data-he-style="margin: 0xp 0px 0px 0px; padding:0px 0px 0px 0px; background-color: #26A2B1;" data-he-button-style="font-family: 'Open Sans'; font-size: 20px;text-decoration: none;color: #fff;" data-he-img="dank.png" src="https://healthengine.com.au/webplugin/appointments.js"></script>   
+                            <script data-he-id="16444" data-he-button="true" data-he-text="BOOK AN APPOINTMENT" data-he-style="padding:0px 0px 0px 0px; background-color: #26A2B1;" data-he-button-style="text-decoration: none;color: #fff;" data-he-img="dank.png" src="https://healthengine.com.au/webplugin/appointments.js"></script>   
                         </button>
                     </div>
                 </div>
