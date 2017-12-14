@@ -26,5 +26,12 @@
 	text-decoration: underline;
 }
 #map {
-	height: 320px;
+	min-height: 320px;
+	height: 100%;
+}
+.contact-medicaldiv {
+	width: 100%;
+}
+.contact-medicaldiv a {
+	float: right;
 }

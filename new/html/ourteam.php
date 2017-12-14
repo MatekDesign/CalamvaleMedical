@@ -32,10 +32,7 @@
 			
 		</div>
 	</div>
-	
-	<br>
 	<?php include_once 'parts/footer.php'; ?>
 	<script src="js/ourteam.js?<?php echo time(); ?>"></script>
 </body>
-
 </html>

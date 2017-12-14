@@ -154,8 +154,6 @@
 			</div>
 		</div>
 	</div>
-	<br>
 	<?php include_once 'parts/footer.php'; ?>
 </body>
-
 </html>
