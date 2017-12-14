@@ -16,11 +16,6 @@
     #he-webplugin-16444 {
         min-width: initial;    
     }
-@media (max-width: 1999px){
-    #he-webplugin-16444 {
-        min-width: initial;
-    }
-}
 </style>
 </head>
 <body>
@@ -73,11 +68,9 @@
             </a>
         </div>
     </div>
-    <br>
-    <br>
-
-    <div class="content-100">
+    <div class="content-0">
         <div class="container-fluid">
+            <br><br>
         <center> 
             <h2>Welcome!</h2> 
             <span>We welcome you to our practice, where we provide a full range of family medical care. It is our aim to provide the highest standard of health care.<br><br>
@@ -86,7 +79,6 @@
         </div>
         </center>
     </div>
-    <br>
     <div class="content-1">
         <div class="container-fluid">
             <div class="row">
@@ -152,19 +144,6 @@
                 </div>
             </div>
         </div>
-    </div>
-    <br>
-    <div class="content-5">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4">
-                </div>
-                <div class="col-md-4">
-                </div>
-                <div class="col-md-4">
-                </div>
-            </div>    
-        </div> 
     </div>
     <div class="content-4">
         <div class="container-fluid">
