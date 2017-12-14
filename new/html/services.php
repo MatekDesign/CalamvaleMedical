@@ -14,7 +14,6 @@
 
 <body>
 	<?php include 'parts/navbar.php'; ?>
-	<?php include 'parts/booksnippet.php'; ?>
 	
 	<!-- Header -->
 	<div class="header">

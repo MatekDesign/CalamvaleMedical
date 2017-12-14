@@ -7,12 +7,20 @@
 			<i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;&nbsp; Email: <a href="mailto:info@calamvalemedical.com.au">info@calamvalemedical.com.au</a>
 		</div>
 		<div class="pull-right book max">
-			 Want to book an appointment? <a onClick="headerButtonClicked()">BOOK NOW</a>
-		</div> 
+			<div style="display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -moz-flex; display: -webkit-flex; display: flex;  -ms-box-orient: horizontal;  list-style: none;  -webkit-flex-wrap: wrap; flex-wrap: wrap;">
+                <div style="  text-align: center;">
+			        Want to book an appointment?&nbsp; 
+                </div>
+                <div style="  text-align: center;">
+			        <b><script data-he-id="16444" data-he-button="true" data-he-text="BOOK NOW" data-he-style="padding:0px 0px 0px 0px; background-color: #726767;" data-he-button-style="text-decoration: none;color: #f0f2f4;" data-he-img="dank.png" src="https://healthengine.com.au/webplugin/appointments.js"></script></b>
+                </div>
+			</div>
+        </div> 
 		<div class="pull-right book min d-none">
-			 <a onClick="headerButtonClicked()">BOOK NOW</a>
+		    <b><script data-he-id="16444" data-he-button="true" data-he-text="BOOK NOW" data-he-style="padding:0px 0px 0px 0px; background-color: #726767;" data-he-button-style="text-decoration: none;color: #f0f2f4;" data-he-img="dank.png" src="https://healthengine.com.au/webplugin/appointments.js"></script></b>
 		</div>         
 	</div>
+</div>
 </div>
 <nav class="navbar navbar-expand-md mb-4">
 	<a class="navbar-brand asimg" href="index.php"><img src="img/logo.png" /></a>
