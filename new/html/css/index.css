@@ -4,7 +4,7 @@
     transform: translateY(-50%);
 }
 
-.content-100 .container-fluid {
+.content-0 .container-fluid {
     width: 90%;
     display: block;
 }
