@@ -77,7 +77,7 @@
     <br>
 
     <div class="content-100">
-        <div class="container-fluid">
+        <div class="container">
         <center> 
             <h2>Welcome!</h2> 
             <span>We welcome you to our practice, where we provide a full range of family medical care. It is our aim to provide the highest standard of health care.<br><br>
@@ -88,7 +88,7 @@
     </div>
     <br>
     <div class="content-1">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-md-4">
                     <i class="material-icons md-36">local_florist</i>
@@ -117,7 +117,7 @@
     <br>
     <div class="content-2">
         <div class="vertical-align">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                          <div class="content-2-big-text-1">"I have been going here for years with my family and it has been great service everytime"</div>
@@ -129,7 +129,7 @@
     </div>
     <br>
     <div class="content-3">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-8 col-xl-6">
                     <div class="content-3-img">
@@ -148,44 +148,6 @@
                             <form>
                                 <button class="content-3-button" type="submit">READ MORE</button>
                             </form>                 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <br>
-    <div class="content-5">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4">
-                </div>
-                <div class="col-md-4">
-                </div>
-                <div class="col-md-4">
-                </div>
-            </div>    
-        </div> 
-    </div>
-    <div class="content-4">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-8" id="1">
-                    <div id="map" style="height: 350px;margin-bottom: 10px;"></div>
-                </div>
-                <div class="col-md-3" id="2">
-                    <div class="content-4-inner-text">
-                        <div class="content-4-header-1">Locate Us</div>
-                        <div class="content-4-text-1">
-                            <b>Address:</b>
-                            <br>
-                            23 Fortitude Valley,<br>Aspley, Brisbane<br>QLD, 4034
-                            <br>
-                            <br>
-                            <b>Phone:</b> (07) 4562 8952
-                            <br>
-                            <br>
-                            <b>Fax:</b> (07) 1256 8753
-                        </div>
                     </div>
                 </div>
             </div>
