@@ -1,6 +1,5 @@
 <div class="" style="padding: none; margin: none;">
-    <section style="height:80px;"></section>
-    <!----------- Footer ------------>
+       <!----------- Footer ------------>
     <footer class="footer-bs">
         <div class="container">
         <div class="row">

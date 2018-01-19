@@ -68,17 +68,9 @@
             </a>
         </div>
     </div>
-<<<<<<< HEAD
-    <br>
-    <br>
-
-    <div class="content-100">
-        <div class="container">
-=======
     <div class="content-0">
-        <div class="container-fluid">
+        <div class="container">
             <br><br>
->>>>>>> origin/master
         <center> 
             <h2>Welcome!</h2> 
             <span>We welcome you to our practice, where we provide a full range of family medical care. It is our aim to provide the highest standard of health care.<br><br>
@@ -138,49 +130,21 @@
                 </div>
                 <div class="col-md-12 col-lg-4 col-xl-6">
                     <div class="content-3-innner-text">
-                            <div class="content-3-big-text">Meet our team</div>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id venenatis nibh. In hac habitasse platea dictumst. Donec nec felis at nulla rutrum scelerisque at sit amet mi. Duis sit amet dolor non eros condimentum tincidunt eget sed lectus. 
-                            <br>
-                            <br>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id venenatis nibh. In hac habitasse platea dictumst. Donec nec felis at nulla rutrum scelerisque at sit amet mi. Duis sit amet dolor non eros condimentum tincidunt eget sed lectus. 
-                            <br>
-                            <br>
-                            <form>
-                                <button class="content-3-button" type="submit">READ MORE</button>
-                            </form>                 
+                        <div class="content-3-big-text">Meet our team</div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id venenatis nibh. In hac habitasse platea dictumst. Donec nec felis at nulla rutrum scelerisque at sit amet mi. Duis sit amet dolor non eros condimentum tincidunt eget sed lectus. 
+                        <br>
+                        <br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id venenatis nibh. In hac habitasse platea dictumst. Donec nec felis at nulla rutrum scelerisque at sit amet mi. Duis sit amet dolor non eros condimentum tincidunt eget sed lectus. 
+                        <br>
+                        <br>
+                        <form>
+                            <button class="content-3-button" type="submit">READ MORE</button>
+                        </form>                 
                     </div>
                 </div>
             </div>
         </div>
     </div>
-<<<<<<< HEAD
-=======
-    <div class="content-4">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-8" id="1">
-                    <div id="map" style="height: 350px;margin-bottom: 10px;"></div>
-                </div>
-                <div class="col-md-3" id="2">
-                    <div class="content-4-inner-text">
-                        <div class="content-4-header-1">Locate Us</div>
-                        <div class="content-4-text-1">
-                            <b>Address:</b>
-                            <br>
-                            23 Fortitude Valley,<br>Aspley, Brisbane<br>QLD, 4034
-                            <br>
-                            <br>
-                            <b>Phone:</b> (07) 4562 8952
-                            <br>
-                            <br>
-                            <b>Fax:</b> (07) 1256 8753
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
->>>>>>> origin/master
     <?php include_once 'parts/footer.php'; ?>
     <script src="js/index.js?<?php echo time(); ?>"></script>
     <script src="js/map.js"></script>

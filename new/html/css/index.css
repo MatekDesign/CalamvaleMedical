@@ -16,7 +16,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-	margin-top: 16px;
+	margin-top: 40px;
+    margin-bottom: 40px;
 }
 .content-1 .col-md-4 {
     padding: 15px 15px 15px 15px;
@@ -55,7 +56,10 @@
     font-weight: 400;
     text-shadow: 0.75px 0.75px 3px rgba(0, 0, 0, 0.25);
 }
-
+.content-3 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
 .content-3-img {
     padding-right: 20px;
     padding-top: 20px;
@@ -86,21 +90,6 @@
 	display: block;
     font-family: 'Montserrat';
 	font-size: 18px;
-}
-.content-3-inner-text {
-    margin: 10px 10px 10px 10px;
-    height: 450px;
-}
-.content-4-inner-text {
-    margin: 10px 10px 10px 10px;
-}
-.content-4-header-1 {
-    font-family: 'Open Sans';
-    font-size: 30px;
-    font-weight: 300;
-}
-.content-4-text-1 {
-    padding-left: 3px;
 }
 
 #bookappointment .book-content {
