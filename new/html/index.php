@@ -16,11 +16,6 @@
     #he-webplugin-16444 {
         min-width: initial;    
     }
-@media (max-width: 1999px){
-    #he-webplugin-16444 {
-        min-width: initial;
-    }
-}
 </style>
 </head>
 <body>
@@ -73,11 +68,17 @@
             </a>
         </div>
     </div>
+<<<<<<< HEAD
     <br>
     <br>
 
     <div class="content-100">
         <div class="container">
+=======
+    <div class="content-0">
+        <div class="container-fluid">
+            <br><br>
+>>>>>>> origin/master
         <center> 
             <h2>Welcome!</h2> 
             <span>We welcome you to our practice, where we provide a full range of family medical care. It is our aim to provide the highest standard of health care.<br><br>
@@ -86,7 +87,6 @@
         </div>
         </center>
     </div>
-    <br>
     <div class="content-1">
         <div class="container">
             <div class="row">
@@ -153,6 +153,34 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
+=======
+    <div class="content-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8" id="1">
+                    <div id="map" style="height: 350px;margin-bottom: 10px;"></div>
+                </div>
+                <div class="col-md-3" id="2">
+                    <div class="content-4-inner-text">
+                        <div class="content-4-header-1">Locate Us</div>
+                        <div class="content-4-text-1">
+                            <b>Address:</b>
+                            <br>
+                            23 Fortitude Valley,<br>Aspley, Brisbane<br>QLD, 4034
+                            <br>
+                            <br>
+                            <b>Phone:</b> (07) 4562 8952
+                            <br>
+                            <br>
+                            <b>Fax:</b> (07) 1256 8753
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+>>>>>>> origin/master
     <?php include_once 'parts/footer.php'; ?>
     <script src="js/index.js?<?php echo time(); ?>"></script>
     <script src="js/map.js"></script>

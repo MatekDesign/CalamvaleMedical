@@ -4,10 +4,13 @@
     transform: translateY(-50%);
 }
 
-.content-100 .container-fluid {
+.content-0 .container-fluid {
+    width: 100%;
     display: block;
+    background-color: rgb(246, 246, 246);
+    padding-bottom: 40px;
+    border-top: solid 5px #26A2B1;
 }
-
 .content-1 {
     text-align: center;
     display: block;
