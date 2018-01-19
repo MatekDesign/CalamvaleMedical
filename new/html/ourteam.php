@@ -33,5 +33,7 @@
 	</div>
 	<?php include_once 'parts/footer.php'; ?>
 	<script src="js/ourteam.js?<?php echo time(); ?>"></script>
+	<script src="js/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKpizFlgH-vwYio016p65LWhX3lIjwEgk&callback=initMap" async defer></script>
 </body>
 </html>

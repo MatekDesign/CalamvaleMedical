@@ -15,7 +15,6 @@
 
 <body>
 	<?php include 'parts/navbar.php'; ?>
-	<?php include 'parts/booksnippet.php'; ?>
 	
 	<!-- Header -->
 	<div class="header">
@@ -25,6 +24,7 @@
 			</center>
 		</div>
 	</div>
+	<br>
 	<br>
 
 	<div class="container">
@@ -83,6 +83,9 @@
 			</div>
 		</div>
 	</div>
+	<br>
+	<br>
+	<br>
 	<?php include_once 'parts/footer.php'; ?>
 	<script src="js/map.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKpizFlgH-vwYio016p65LWhX3lIjwEgk&callback=initMap" async defer></script>
