@@ -1,5 +1,14 @@
 $(document).ready(function () {
 	onScaleChangeIndex();
+	setInterval(function() {
+		onScaleChangeIndex();
+		onScaleChangeNavbar();
+	}, 250);
+
+	//anti stone age web tech
+	$(".carousel-item").each(function(i) {
+		$(this).css("background-image", $(this).data("lazy-style"));
+	})
 });
 $(window).resize(function () {
 	onScaleChangeIndex();

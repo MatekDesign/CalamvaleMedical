@@ -20,7 +20,7 @@
 	<div class="header">
 		<div class="header-vertical-align">
 			<center>
-				<span class="header-title">Contact Us</span>
+				<span class="header-title">CONTACT US</span>
 			</center>
 		</div>
 	</div>
@@ -79,7 +79,7 @@
 				</div>
 			</div>
 			<div class="col-xl-6 col-lg-12" >
-				<div id="map"></div>
+				<div id="mapcontactus"></div>
 			</div>
 		</div>
 	</div>

@@ -3,7 +3,7 @@ function initMap() {
 		lat: -27.624426,
 		lng: 153.049009
 	};
-	var map = new google.maps.Map(document.getElementById('map'), {
+	var options = {
 		zoom: 15,
 		center: calcenter,
 		styles: [{
@@ -122,9 +122,15 @@ function initMap() {
 				"weight": 1.2
 			}]
 		}]
-	});
+	};
+	var map = new google.maps.Map(document.getElementById('map'), options);
+	var map2 = new google.maps.Map(document.getElementById('mapcontactus'), options);
 	var marker = new google.maps.Marker({
 		position: calcenter,
 		map: map
+	});
+	var marker2 = new google.maps.Marker({
+		position: calcenter,
+		map: map2
 	});
 }

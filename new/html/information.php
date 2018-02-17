@@ -48,7 +48,7 @@
 							<ul>
 								<li>Make an appointment by telephone (3272 5155).</li>
 							
-								<li>You may wish to download and print the new patient form (<a href="http://get.adobe.com/reader">Adobe Reader</a> required).</li>
+								<li>You may wish to download and print the <a target="_blank" href="docs/NewPatientForm.pdf">new patient</a> form (<a target="_blank" href="http://get.adobe.com/reader">Adobe Reader</a> required).</li>
 							
 								<li>You can then complete the form and either fax back to 3272 5110 or bring with you at the time of your appointment. This will save your time at the first consultation.</li>
 							</ul>

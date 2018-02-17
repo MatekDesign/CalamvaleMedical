@@ -30,30 +30,30 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="carousel-item active" style="background-image: url('img/background-man.jpeg');">
+                <div class="carousel-item active" data-lazy-style="url('img/background-man.jpeg')">
                     <div class="carousel-caption">
                         <h3>Depenable health care</h3>
                         <p>Committed to providing comprehensive care to all</p>
                         <button class="header-button" type="submit">
-                            <script data-he-id="16444" data-he-button="true" data-he-text="BOOK AN APPOINTMENT" data-he-style="padding:0px 0px 0px 0px; background-color: #26A2B1;" data-he-button-style="text-decoration: none;color: #fff;" data-he-img="dank.png" src="https://healthengine.com.au/webplugin/appointments.js"></script>   
+                            <script data-he-id="16444" data-he-button="true" data-he-text="BOOK AN APPOINTMENT" data-he-style="padding:0px 0px 0px 0px; background-color: #26A2B1;" data-he-button-style="text-decoration: none;color: #fff;" src="js/appointments.js"></script>   
                         </button>
                     </div>
                 </div>
-                <div class="carousel-item" style="background-image: url('img/skeleton.jpg');">
+                <div class="carousel-item" data-lazy-style="url('img/skeleton.jpg')">
                     <div class="carousel-caption d-md-block">
                         <h3>Highest Medical Standards</h3>
                         <p>We consistantly provide the highest standard of health care</p>
                         <button class="header-button" type="submit">
-                            <script data-he-id="16444" data-he-button="true" data-he-text="BOOK AN APPOINTMENT" data-he-style="padding:0px 0px 0px 0px; background-color: #26A2B1;" data-he-button-style="text-decoration: none;color: #fff;" data-he-img="dank.png" src="https://healthengine.com.au/webplugin/appointments.js"></script>   
+                        <script data-he-id="16444" data-he-button="true" data-he-text="BOOK AN APPOINTMENT" data-he-style="padding:0px 0px 0px 0px; background-color: #26A2B1;" data-he-button-style="text-decoration: none;color: #fff;" src="js/appointments.js"></script>     
                         </button>
                     </div>
                 </div>
-                <div class="carousel-item" style="background-image: url('img/background-hospital.jpeg');">
+                <div class="carousel-item" data-lazy-style="url('img/background-hospital.jpeg')">
                     <div class="carousel-caption">
                         <h3>Family Friendly</h3>
                         <p>We provide a insert sample text?</p>
                         <button class="header-button" type="submit">
-                            <script data-he-id="16444" data-he-button="true" data-he-text="BOOK AN APPOINTMENT" data-he-style="padding:0px 0px 0px 0px; background-color: #26A2B1;" data-he-button-style="text-decoration: none;color: #fff;" data-he-img="dank.png" src="https://healthengine.com.au/webplugin/appointments.js"></script>   
+                        <script data-he-id="16444" data-he-button="true" data-he-text="BOOK AN APPOINTMENT" data-he-style="padding:0px 0px 0px 0px; background-color: #26A2B1;" data-he-button-style="text-decoration: none;color: #fff;" src="js/appointments.js"></script>     
                         </button>
                     </div>
                 </div>

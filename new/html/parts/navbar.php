@@ -12,7 +12,7 @@
 			        Want to book an appointment?&nbsp; 
                 </div>
                 <div style="  text-align: center;">
-			        <b><script data-he-id="16444" data-he-button="true" data-he-text="BOOK NOW" data-he-style="padding:0px 0px 0px 0px; background-color: #726767;" data-he-button-style="text-decoration: none;color: #f0f2f4;" data-he-img="dank.png" src="https://healthengine.com.au/webplugin/appointments.js"></script></b>
+			        <b><script data-he-id="16444" data-he-button="true" data-he-text="BOOK NOW" data-he-style="padding:0px 0px 0px 0px; background-color: #726767;" data-he-button-style="text-decoration: none;color: #f0f2f4;" src="js/appointments.js"></script></b>
                 </div>
 			</div>
         </div> 

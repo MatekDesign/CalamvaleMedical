@@ -5,7 +5,6 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400+700|Open+Sans:300,400,600" rel="stylesheet">
 
 <!-- This is up here because I want to cancel some Bootstrap code in certain sections -->
-<link href="css/style.css" rel="stylesheet">
 <link href="css/navbar.css" rel="stylesheet">
 <link href="css/footer.css" rel="stylesheet">
 <link href="css/header.css" rel="stylesheet">

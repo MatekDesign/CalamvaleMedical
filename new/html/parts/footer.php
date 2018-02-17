@@ -1,12 +1,11 @@
 <div class="" style="padding: none; margin: none;">
-       <!----------- Footer ------------>
     <footer class="footer-bs">
         <div class="container">
         <div class="row">
         	<div class="col-md-4 footer-brand animated fadeInLeft">
             	<h2>Calamvale Medical Center</h2>
                 <p>Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec ultricies. Curabitur vehicula, libero eget faucibus faucibus, purus erat eleifend enim, porta pellentesque ex mi ut sem.</p>
-                <p>© 2014 BS3 UI Kit, All rights reserved</p>
+                <p>© <?php echo date("Y"); ?> Calamvale Medical Centre</p>
             </div>
         	<div class="col-md-5 footer-social animated fadeInDown">
             	<h4>Locate Us</h4>
@@ -19,10 +18,6 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Information</a></li>
                         <li><a href="#">Services</a></li>
-                    </ul>
-                </div>
-            	<div class="col-md-7">
-                    <ul class="list">
                         <li><a href="#">Our Team</a></li>
                         <li><a href="#">Contact Us</a></li>
                     </ul>
